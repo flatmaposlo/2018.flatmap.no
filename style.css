@@ -1,0 +1,30 @@
+body {
+  background-color: #1e1e28;
+  text-align: center;
+  margin-top: 10em;
+}
+
+section {
+  font-size: 35px;
+  color: #9f4753;
+  font-family: "mrs-eaves",sans-serif;
+  font-weight: bold;
+}
+
+.logo {
+  margin-bottom: 1.0em;
+}
+
+a {
+  color: #9f4753;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contact {
+  margin-top: 5em;
+}
+

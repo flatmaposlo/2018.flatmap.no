@@ -6,7 +6,7 @@ body {
 
 section {
   font-size: 35px;
-  color: #9f4753;
+  color: #ac5b5a;
   font-family: "mrs-eaves",sans-serif;
   font-weight: bold;
 }
@@ -16,7 +16,7 @@ section {
 }
 
 a {
-  color: #9f4753;
+  color: #ac5b5a;
   text-decoration: none;
 }
 
@@ -25,6 +25,12 @@ a:hover {
 }
 
 .contact {
-  margin-top: 5em;
+  font-size: 0.8em;
+  margin-top: 3em;
+}
+
+.previous {
+  font-size: 0.8em;
+  margin-top: 3em;
 }
 

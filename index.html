@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+{% assign sorted_pages = site.pages | where:"onFrontPage", true %}
+
+<div class="inner">
+  {{ sorted_pages[0].content }}
+</div>

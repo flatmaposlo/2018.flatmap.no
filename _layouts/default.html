@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+   {% include head.html %}
+</head>
+<body>
+
+<div class="wrap">
+  <div class="menubar">
+    {% include menubar.html %}
+  </div>
+  <div class="header">
+    {% include header.html %}
+  </div>
+
+  {% include hero.html %}
+
+  <div class="content">
+    {{ content }}
+  </div>
+
+  <div class="footer">
+    {% include footer.html %}
+  </div>
+
+</div>
+</body>
+</html>

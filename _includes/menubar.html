@@ -1,8 +1,8 @@
 <ul>
   {% assign sorted_pages = site.pages | sort:"order" | where:"layout","page" %}
   {% for page in sorted_pages %}
-    <li>
-      <a href="{{ page.url }}">{{ page.title }}</a>
-    </li>
+    <a href="{{ page.url }}">
+      <li>{{ page.title }}</li>
+    </a>
     {% endfor %}
 </ul>

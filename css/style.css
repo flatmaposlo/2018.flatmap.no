@@ -73,7 +73,7 @@ p {
   .header span {
     font-weight: 400; }
   .header img {
-    width: 30%; }
+    width: 25%; }
     @media screen and (max-width: 480px) {
       .header img {
         width: 40%; } }

@@ -1,0 +1,37 @@
+- page_name:
+    "pretty"
+  speakers:
+  -
+    name:
+      "JON PRETTY"
+    bio:
+      "<p>Jon (@propensive) has been having fun riding the bleeding edge of
+      Scala for over a decade, and he's not done yet. While he's not
+      travelling the world attending Scala conferences, or organizing his
+      own (Scala World), Jon spends his time working on the open-source
+      Rapture libraries. He is principal engineer at The Scala Center.</p>"
+    image:
+      "pretty.png"
+    twitter_handle:
+      "@propensive"
+    twitter_link:
+      "https://twitter.com/propensive"
+  title:
+    "Type Members vs Type Parameters"
+  type:
+    "Presentation"
+  abstract:
+    "<p>Scala's type system provides generics in two ways—type members and
+    type parameters—and most advanced Scala developers will use both in their
+    code at different times.</p>
+
+    <p>But how do we choose between them? Usually one or the other will
+    feel \"right\" for a particular use case, and, if not, we can usually
+    refactor our code and take the alternative approach. But could we learn
+    to be better at making the \"right\" choice first time?</p>
+
+    <p>I'll explore the most important considerations when choosing between
+    them, their relationship with existential and universal quantification
+    (I'll also explain what this means!), and look at whether they are
+    completely interchangeable in all cases, or whether certain scenarios
+    force us to take one path or the other.</p>"

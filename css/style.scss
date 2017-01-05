@@ -1,0 +1,144 @@
+---
+---
+
+@import "https://fonts.googleapis.com/css?family=Noto+Serif";
+@import "https://fonts.googleapis.com/css?family=Roboto:900";
+@import "https://fonts.googleapis.com/css?family=Roboto:400";
+
+$bgColor: #1e1e28;
+$linkColor: #ac5b5a;
+$headerColor: #CAAD9A;
+$textColor: $headerColor;
+
+body {
+  margin: 0;
+  background-color: $bgColor;
+}
+
+a {
+  font-weight: 400;
+  text-decoration: none;
+  color: $linkColor;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.menubar {
+
+  margin-bottom: 1em;
+  font-family: "Roboto", "Helvetica";
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li {
+      text-align: center;
+      background-color: #23262d;
+      padding-top: 0.7em;
+      padding-bottom: 0.7em;
+      border-bottom: thin solid #383C47;
+    }
+
+  }
+
+}
+
+.header {
+  color: $headerColor;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1em;
+
+  img {
+    width: 50%;
+  }
+
+}
+
+.hero {
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: center;
+  color: $linkColor;
+  font-family: "mrs-eaves",sans-serif;
+  font-size: 1.2em;
+}
+
+
+.content {
+
+  margin-left: 1em;
+  margin-right: 1em;
+  color: $textColor;
+  font-family: "Noto serif", serif;
+  line-height: 1.7em;
+  padding-bottom: 2em;
+
+  h2 {
+    font-family: "Roboto", "Helvetica";
+    font-weight: 400;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+    color: $headerColor;
+    text-transform: uppercase;
+    font-size: 1.2em;
+  }
+
+  h3 {
+    font-family: "Roboto", "Helvetica";
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-weight: 400;
+    text-align: center;
+    color: $headerColor;
+    text-transform: uppercase;
+    font-size: 1em;
+  }
+
+}
+
+.sponsors-footer {
+
+  background-color: #23262d;
+  padding-top: 2em;
+  padding-bottom: 2.7em;
+  text-align: center;
+  color: $textColor;
+  font-family: "Noto serif", serif;
+
+
+  h3 {
+    font-family: "Roboto", "Helvetica";
+    font-weight: 400;
+    margin-bottom: 2em;
+    color: $headerColor;
+    text-transform: uppercase;
+    font-size: 1.2em;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  img {
+    width: 50%;
+  }
+}
+
+.contact-footer {
+  padding-top: 2em;
+  padding-bottom: 2.7em;
+  text-align: center;
+  color: $textColor;
+  font-family: "Noto serif", serif;
+
+  div {
+    margin-top: 1em;
+  }
+}

@@ -4,6 +4,7 @@
 @import "https://fonts.googleapis.com/css?family=Noto+Serif";
 @import "https://fonts.googleapis.com/css?family=Roboto:900";
 @import "https://fonts.googleapis.com/css?family=Roboto:400";
+@import "susy";
 
 $bgColor: #1e1e28;
 $linkColor: #ac5b5a;
@@ -25,15 +26,33 @@ a:hover {
   text-decoration: underline;
 }
 
-.menubar {
+.wrap {
+  @include container;
+  @media screen and (min-width: 720px) {
+    width: 720px;
+  }
+}
 
+.menubar {
   margin-bottom: 1em;
   font-family: "Roboto", "Helvetica";
+  width: 100%;
+  text-align: center;
+
+  @media screen and (min-width: 610px) {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
 
   ul {
     padding: 0;
     margin: 0;
     list-style: none;
+
+    @media screen and (min-width: 610px) {
+      display: flex;
+      justify-content: center;
+    }
 
     li {
       text-align: center;
@@ -41,10 +60,18 @@ a:hover {
       padding-top: 0.7em;
       padding-bottom: 0.7em;
       border-bottom: thin solid #383C47;
+
+      @media screen and (min-width: 610px) {
+        display: inline;
+        margin-bottom: 1em;
+
+        padding: 0 1.5em;
+
+        background-color: $bgColor;
+        border-bottom: none;
+      }
     }
-
   }
-
 }
 
 .header {
@@ -55,8 +82,11 @@ a:hover {
 
   img {
     width: 50%;
-  }
 
+    @media screen and (min-width: 610px) {
+      width: 350px;
+    }
+  }
 }
 
 .hero {
@@ -68,9 +98,7 @@ a:hover {
   font-size: 1.2em;
 }
 
-
 .content {
-
   margin-left: 1em;
   margin-right: 1em;
   color: $textColor;
@@ -103,7 +131,6 @@ a:hover {
 }
 
 .sponsors-footer {
-
   background-color: #23262d;
   padding-top: 2em;
   padding-bottom: 2.7em;
@@ -122,13 +149,13 @@ a:hover {
   }
 
   ul {
-    padding: 0;
+    //padding: 0;
     list-style: none;
   }
 
-  img {
+  /*img {
     width: 50%;
-  }
+  }*/
 }
 
 .contact-footer {
@@ -140,5 +167,51 @@ a:hover {
 
   div {
     margin-top: 1em;
+  }
+}
+
+.gallerywrap {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.gallery {
+  @include susy-clearfix;
+
+  @media screen and (min-width: 400px) {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+
+  @media screen and (min-width: 800px) {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+  }
+
+  padding: gutter(8);
+  padding-bottom: 0;
+}
+
+.gallery-item {
+
+  @media screen and (min-width: 400px) {
+    @include gallery(4 of 8);
+    margin-bottom: gutter(8);
+    //margin: 4em;
+  }
+
+  @media screen and (min-width: 800px) {
+    @include gallery(3 of 9);
+    margin-bottom: gutter(9);
+  }
+
+  img {
+    width: 60%;
+
+    @media screen and (min-width: 400px) {
+      width: 100%;
+    }
   }
 }

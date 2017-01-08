@@ -101,7 +101,7 @@ a:hover {
     text-transform: uppercase;
     font-size: 1em; }
 
-.sponsors-footer {
+.friends-footer {
   background-color: #23262d;
   padding-top: 2em;
   padding-bottom: 2.7em;
@@ -111,14 +111,14 @@ a:hover {
   /*img {
     width: 50%;
   }*/ }
-  .sponsors-footer h3 {
+  .friends-footer h3 {
     font-family: "Roboto", "Helvetica";
     font-weight: 400;
     margin-bottom: 2em;
     color: #CAAD9A;
     text-transform: uppercase;
     font-size: 1.2em; }
-  .sponsors-footer ul {
+  .friends-footer ul {
     list-style: none; }
 
 .contact-footer {

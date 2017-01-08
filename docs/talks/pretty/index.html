@@ -80,11 +80,12 @@
       
 
 <div class="talk">
-<h2>Type Members vs Type Parameters</h2>
+<h2>TBD</h2>
 <p>Presentation</p>
-<div class="abstract"><p>Scala's type system provides generics in two ways — type members and type parameters — and most advanced Scala developers will use both in their code at different times.</p>
-<p>But how do we choose between them? Usually one or the other will feel "right" for a particular use case, and, if not, we can usually refactor our code and take the alternative approach. But could we learn to be better at making the "right" choice first time?</p>
-<p>I'll explore the most important considerations when choosing between them, their relationship with existential and universal quantification (I'll also explain what this means!), and look at whether they are completely interchangeable in all cases, or whether certain scenarios force us to take one path or the other.</p></div>
+<div class="abstract"><p>Interpolated strings, like the familiar `s""`, provide a convenient way to embed external DSLs in Scala source, allowing you to construct a new value at runtime from a string literal, with Scala expressions substituted within it.</p>
+<p>But unless you are prepared to implement the interpolator using a macro, the compiler provides no checks on the correctness or well-formedness of the embedded DSL.</p>
+<p>Contextual is a small open-source library which does the heavy lifting work to make it trivial to write string interpolators which run at compile time, without requiring any macro code. A string interpolator which parses and checks a DSL at compile-time -- with its own custom error-messages -- can be written using contextual in just a few lines of ordinary "userspace" code, calling upon parsers, regular expressions or any other means to check the interpolated string.</p>
+<p>This opens up a smorgasbord of possibilities for adding more compile-time safety to Scala code, not least the ability to introduce your own literal-like types, ranging from checked email addresses or URLs to compile-time-parsed YAML, CSS or GraphQL.</p></div>
 
 
 

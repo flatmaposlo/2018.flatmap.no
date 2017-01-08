@@ -280,3 +280,20 @@ a:hover {
 .speakerImage {
   width: 180px;
 }
+
+.tickets {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.ticketsAvailable {
+  font-family: "Roboto", "Helvetica";
+  font-weight: 400;
+
+  border: thin solid $linkColor;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  border-bottom-right-radius: 2em;
+  border-bottom-left-radius: 2em;
+  padding: .7em;
+}

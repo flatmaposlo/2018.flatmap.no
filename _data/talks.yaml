@@ -1,9 +1,9 @@
 - page_name:
-    "pretty"
+    "type_members_vs_type_parameters"
   speakers:
   -
     name:
-      "JON PRETTY"
+      "Jon Pretty"
     bio:
       "<p>Jon (@propensive) has been having fun riding the bleeding edge of
       Scala for over a decade, and he's not done yet. While he's not
@@ -21,8 +21,8 @@
   type:
     "Presentation"
   abstract:
-    "<p>Scala's type system provides generics in two ways—type members and
-    type parameters—and most advanced Scala developers will use both in their
+    "<p>Scala's type system provides generics in two ways — type members and
+    type parameters — and most advanced Scala developers will use both in their
     code at different times.</p>
 
     <p>But how do we choose between them? Usually one or the other will

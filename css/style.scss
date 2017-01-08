@@ -215,3 +215,68 @@ a:hover {
     }
   }
 }
+
+.speakers {
+
+  text-align: center;
+
+  /*@include container;
+  @include susy-clearfix;*/
+
+  img {
+    width: 160px;
+  }
+
+  .profile {
+    //@include span(2);
+  }
+
+  .titleTalk {
+//    @include span(3 last);
+    font-size: 1em;
+    a {
+      color: $textColor;
+    }
+    //font-family: font-family: "Roboto", "Helvetica";
+  }
+
+  .speakername {
+    a {
+      color: $linkColor;
+    }
+  }
+
+}
+
+.talk {
+
+  .abstract {
+    text-align: left;
+
+    margin-bottom: 4em;
+
+    @media screen and (min-width: 400px) {
+      text-align: justify;
+    }
+  }
+
+  h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .bio {
+    text-align: left;
+
+    @media screen and (min-width: 400px) {
+      text-align: justify;
+    }
+  }
+
+  text-align: center;
+
+}
+
+.speakerImage {
+  width: 180px;
+}

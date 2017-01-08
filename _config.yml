@@ -16,3 +16,9 @@ markdown: kramdown
 
 gems:
 - susy
+
+page_gen:
+- data: talks
+  template: talk
+  name: page_name
+  dir: talks

@@ -1,0 +1,25 @@
+---
+layout: page
+title: Talks
+permalink: /talks/
+order: 2
+onFrontPage: true
+---
+
+## Talks
+
+<div class="speakers">
+{% for talk in site.data.talks %}
+  {% for speaker in talk.speakers %}
+    <div class="profile">
+      <a href="{{ site.path }}/talks/{{talk.page_name}}"><img src="{{ site.path }}/assets/img/{{ speaker.image}}" alt="{{speaker.name}}" /></a>
+    </div>
+    <span class="titleTalk">
+      <span><a href="{{ site.path }}/talks/{{talk.page_name}}">{{talk.title}}</a></span>
+      <div class="speakername">
+        <a href="{{ speaker.twitter_link }}" target="_blank">{{speaker.name}}</a>
+      </div>
+    </span>
+  {% endfor %}
+{% endfor %}
+</div>

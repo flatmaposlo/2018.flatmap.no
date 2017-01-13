@@ -28,3 +28,28 @@
     <p>Contextual is a small open-source library which does the heavy lifting work to make it trivial to write string interpolators which run at compile time, without requiring any macro code. A string interpolator which parses and checks a DSL at compile-time -- with its own custom error-messages -- can be written using contextual in just a few lines of ordinary "userspace" code, calling upon parsers, regular expressions or any other means to check the interpolated string.</p>
 
     <p>This opens up a smorgasbord of possibilities for adding more compile-time safety to Scala code, not least the ability to introduce your own literal-like types, ranging from checked email addresses or URLs to compile-time-parsed YAML, CSS or GraphQL.</p>'
+
+- page_name:
+    "torreborre"
+  title:
+    "Streams, effects and beautiful folds, a winning trilogy"
+  type:
+    "Presentation"
+  abstract:
+    '<p>Most applications are just reading data, transforming it and writing it somewhere else. And there are great libraries in the Scala eco-system to support these use cases: Akka-Stream, fs2, Monix,... But if you look under the hood and try to understand how those libraries work you might be a bit scared by their complexity!</p>
+
+    <p>In this talk you will learn how to build a very minimal "streaming library" where all the difficult concerns are left to other libraries: eff for asynchronous computations and resources management, origami for extracting useful data out of the stream. Then you will decide how to spend your complexity budget and when you should pay for more powerful abstractions.</p>'
+  speakers:
+  -
+    name:
+      "Erik Torreborre"
+    bio:
+      "<p>Eric Torreborre is a software developer living in Berlin, working for Zalando. He is the creator of the specs2 library for software specifications in Scala.</p>
+
+      <p>Scala has been his gateway drug to functional programming and made him a more satisfied developer. When he finally understands what he is doing he tries to share it with the rest of the world.</p>"
+    image:
+      "torreborre.png"
+    twitter_handle:
+      "@etorreborre"
+    twitter_link:
+      "https://twitter.com/etorreborre"

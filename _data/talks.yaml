@@ -53,3 +53,27 @@
       "@etorreborre"
     twitter_link:
       "https://twitter.com/etorreborre"
+
+- page_name:
+    "vitale"
+  title:
+    "Using Eta for what you don't like writing in Scala"
+  type:
+    "Presentation"
+  abstract:
+    '<p>The integration of Scala with a lazy-by-default, modern and statically-typed functional language could lead to some interesting language-heterogeneous implementations despite the fact that the Eta programming language is missing a comprehensive documentation, robust concurrency support and an interactive REPL.</p>
+
+    <p>This talk aims to cover some of those interaction patterns to help both people already working or struggling with Haskell, and through that to also motivate the use of Eta for those still unfamiliar with this "end of the FP spectrum".</p>'
+  speakers:
+  -
+    name:
+      "Filippo Vitale"
+    bio:
+      'Filippo Vitale is a Software Engineer living in Ann Arbor, MI. He has been developing in Scala at Arbor Networks over the past 3 years, with more than a decade of Java and C# development experience.</p>
+      <p>When he is not working on real-time analytics systems for Advanced Thread Detection and Threat Intelligence using Scala, Python and C, he enjoys hiking, running and making fresh pasta.</p>'
+    image:
+      "vitale.png"
+    twitter_handle:
+      "@filippovitale"
+    twitter_link:
+      "https://twitter.com/filippovitale"

@@ -77,3 +77,143 @@
       "@filippovitale"
     twitter_link:
       "https://twitter.com/filippovitale"
+
+- page_name:
+    "belak"
+  title:
+    "clojure.spec: a lisp-flavoured type system"
+  type:
+    "Presentation"
+  abstract:
+    "<p>You can do cool and unexpected things if your entire type system is a
+    first class citizen and accessible at runtime.</p>
+
+    <p>With the introduction of spec, Clojure got its own distinct spin on a
+    type system. Just as macros add another -time (runtime and compile time)
+    where the full power of the language can be used, spec does to describing
+    data. </p>
+
+    <p>The result is an entire additional type system that is a first class
+    citizen and accessible at runtime that facilitates validation, generative
+    testing (a la QuickCheck), destructuring (pattern matching into deeply
+    nested data), data macros (recursive transformations of data) and a
+    pluginable error system. And then you can start building on top of it.</p>
+
+    <p>The talk will be half introduction to spec and the ideas packed within
+    it, and half experience report instrumenting 15k loc production codebase
+    (primarily ETL and analytics) with spec.</p>"
+  speakers:
+  -
+    name:
+      "Simon Belak"
+    bio:
+      "<p>Simon Belak is the Chief Analytics Officer at GoOpti where he is in
+       charge of making the company data-driven; building analytics
+       infrastructure (end goal: provide any answer stemming from data in 2 min
+       or less); and developing a predictive real-time pricing engine.</p>
+
+       <p>Before GoOpti he worked with over 20 startups and growth companies
+       helping them become data driven and set up (or level up) their analytics
+       departments.</p>"
+    image:
+      "belak.png"
+    twitter_handle:
+      "@sbelak"
+    twitter_link:
+      "https://twitter.com/sbelak"
+
+- page_name:
+    "wickstrom"
+  title:
+    "The Power of Functional Programming and Static Type Systems in Server-Side
+    Web Applications"
+  type:
+    "Presentation"
+  abstract:
+    "<p>Single-page web applications have been spreading like wildfire, with an
+    endless amount of frameworks and libraries, and functional programming
+    together with static types fueling the fire with great ideas like pure
+    functions, monads, and strong type checking. But what happened to
+    Progressive Enhancement? Some parts of our applications might require
+    Javascript to function, but the majority could be built with ordinary links
+    and forms.</p>
+
+    <p>In this talk we will explore how we can build web applications using
+    established web technology, and the power of functional programming and
+    PureScript on the server-side, with strong correctness guarantees.</p>"
+  speakers:
+  -
+    name:
+      "Oskar Wickström"
+    bio:
+      "<p>After some years of musical education Oskar Wickström began his
+      journey into the world of software, as a self-taught programmer. He
+      started a company practicing web design and development for small
+      businesses. He now works with CodeScene, a suite of software analysis and
+      repository mining products, along with various open source projects on his
+      free time.</p>
+
+      <p>Among the technical topics that interest Oskar are functional
+      programming, systems design, web technology, and programming languages.
+      His more aestetic side, which mostly involves making music, draws him
+      towards graphics and UI design every now and then. He’s a bit of a
+      restless soul, but it also means he gets a lot done.</p>"
+    image:
+      "wickstrom.png"
+    twitter_handle:
+      "@owickstrom"
+    twitter_link:
+      "https://twitter.com/owickstrom"
+
+- page_name:
+    "liodden"
+  title:
+    "Building a Company on Scala"
+  type:
+    "Presentation"
+  abstract:
+    "<p>At any company’s start, they will face of the decision of which
+    programming language will define their technology stack.</p>
+
+    <p>For Tapad, this was in 2010, when languages like Scala were in their very
+    early stages and many engineers weren’t looking beyond Java.</p>
+
+    <p>It was at that time that CTO and co-founder, Dag Liodden, made the
+    decision to use Scala, which arguably provided the technical foundation
+    needed to scale Tapad to what it is today -- a 200+ person company,
+    managing 20+ PB of data, that was recently acquired for $360 million.</p>
+
+    <p>While adoption has gained significant momentum for Scala since Tapad
+    first embraced the language, it is still in the fairly early stages of
+    maturity, which poses challenges for experienced and novice Scala developer
+    teams alike. In this session, Dag will address the source of some of these
+    challenges, how they can be resolved, and how Scala can help deliver high
+    quality code at high velocity.</p>
+
+    <p>Ultimately, all leading up to how engineers and entrepreneurs alike can
+    overcome these barriers to build a team, or even a whole company, on Scala.
+    </p>"
+  speakers:
+  -
+    name:
+      "Dag Liodden"
+    bio:
+      "<p>Dag Liodden is Tapad’s Co-Founder and CTO. Dag oversees all
+      technological advancements for the company, including Tapad’s notable
+      breakthroughs in delivering targeted advertising across platforms.</p>
+
+      <p>Prior
+      to Tapad, he was the co-founder and CTO of Giant Leap Technologies AS,
+      the premier Business Mobility solutions provider in the Nordic region.
+      While there, Dag managed some of the largest wireless enterprise solution
+      rollouts in Europe.</p>
+
+      <p>He began programming at 6-years-old and has a Master’s
+      Degree in Science, Industrial Economics and Technology Management from the
+      Norwegian University of Science and Technology.</p>"
+    image:
+      "liodden.png"
+    twitter_handle:
+      "@daggerrz"
+    twitter_link:
+      "https://twitter.com/daggerrz"

@@ -57,8 +57,5 @@ DEPENDENCIES
   jekyll (= 3.2.1)
   susy
 
-RUBY VERSION
-   ruby 2.0.0p481
-
 BUNDLED WITH
    1.14.3

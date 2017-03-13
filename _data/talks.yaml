@@ -479,3 +479,42 @@
       "@felixmulder"
     twitter_link:
       "https://twitter.com/felixmulder"
+
+- page_name:
+    "akhter"
+  title:
+    "The Essence of Functional Structures"
+  type:
+    "Presentation"
+  abstract:
+    "<p>Functional programming (FP) is about compositionality and equational reasoning. Due to these fundamental
+    properties, FP is becoming one of the mainstream programming paradigms.</p>
+
+    <p>However, on the path of learning FP paradigm, we often get stuck with different abstractions such
+    as Functor, Applicative, Monad and so on. That brings to this talk on the essence of functional structures.
+    In this talk, we introduce concepts necessary to master the mostly-used functional structures, outline
+    their core essences, and discuss intuitions on how to apply them in solving problems in a purely
+    functional manner.</p>
+
+    <p>From scratch, we will construct the type classes to represent these structures in Scala. Starting
+    with basic constructs such as Monoid, we will continue exploring structures such as Functor, Applicative,
+    Monad, Foldable and finally, Traversable. Alongside, from the practical point of view, we will dive into
+    the essence of these structures in encoding pure functional programs that are robust, comprehensible
+    and correct-by-construction.</p>
+
+     <p>As an audience, I would get a comprehensive overview of several functional abstractions, learn
+     about their core strengths and limitations and see how to use them in solving problems. No prior
+     knowledge of advanced functional programming is assumed in this talk.</p>"
+  speakers:
+  -
+    name:
+      "Adil Akhter"
+    bio:
+      "<p>Adil Akhter is a Lead Engineer at ING in Amsterdam. He is a functional programmer and is
+      primarily hacking with Scala, Haskell and F#.</p>"
+    image:
+      "akhter.png"
+    twitter_handle:
+      "@adilakhter"
+    twitter_link:
+      "https://twitter.com/adilakhter"

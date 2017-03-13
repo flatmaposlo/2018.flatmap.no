@@ -454,3 +454,28 @@
       "@MagnusHarlin"
     twitter_link:
       "https://twitter.com/MagnusHarlin"
+
+- page_name:
+    "mulder"
+  title:
+    "Abstractions in Dotty for fun and profit"
+  type:
+    "Presentation"
+  abstract:
+    "<p>Dotty brings many powerful new abstractions to Scala. In this talk I will introduce implicit functions
+    and show how they enable extension of GADTs as well as simplicifations to type class usage. I will also
+    talk about the new enums and give an update on the progress of Dotty.</p>"
+  speakers:
+  -
+    name:
+      "Felix Mulder"
+    bio:
+      "<p>Felix is the release manager for the next generation Scala compiler, Dotty, being developed by
+      Martin Odersky's lab at EPFL. He started his foray into Scala by re-engineering the Scaladoc tool
+      for Scala 2.12 and was subsequently hired to work on Dotty at EPFL.</p>"
+    image:
+      "mulder.png"
+    twitter_handle:
+      "@felixmulder"
+    twitter_link:
+      "https://twitter.com/felixmulder"

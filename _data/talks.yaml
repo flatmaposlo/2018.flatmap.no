@@ -251,3 +251,44 @@
       "@olafurpg"
     twitter_link:
       "https://twitter.com/olafurpg"
+
+- page_name:
+    "wendel"
+  title:
+    "The State Of Elm In 2017: Tales From Production"
+  type:
+    "Presentation"
+  abstract:
+    "<p>Elm is a ML-style functional language that compiles to JavaScript. It's purpose is to provide a delightful
+    development experience, increasing productivity, improving maintainability and creating fewer bugs.</p>
+
+    <p>Elm has been around for some time, attracting attention and generating conference talks, but is it
+    really ready for production? Does anyone actually use it for their mission-critical, user-facing apps?
+    If so, what's their stories?</p>
+
+    <p>In this talk you'll learn what Elm is and see how you build apps with it. Furthermore, you'll hear
+    about advantages and disadvantages experienced from adopting Elm on real world projects. Lastly, you'll
+    get an overview on who's using Elm in the Norwegian IT market today.</p>
+
+    <p>The talk should be relevant for anyone eager to see FP become mainstream in frontend development,
+    regardless of previous Elm experience.</p>"
+  speakers:
+  -
+    name:
+      "Erik Wendel"
+    bio:
+      "<p>Developer, JavaScript and frontend guy with 5 years experience from building large-scale web applications
+      for desktop and mobile in large organizations.</p>
+
+      <p>Most recently employed as a frontend architect orchestrating React and Redux in a business with over
+      a hundred developers, optimizing user experience and development speed through building a shared
+      component library.</p>
+
+      <p>Currently discovering the joy of functional programming through using Elm at work.
+      Hosting the new Oslo Elm Meetup group.</p>"
+    image:
+      "wendel.png"
+    twitter_handle:
+      "@ewndl"
+    twitter_link:
+      "https://twitter.com/ewndl"

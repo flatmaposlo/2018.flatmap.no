@@ -217,3 +217,37 @@
       "@daggerrz"
     twitter_link:
       "https://twitter.com/daggerrz"
+
+- page_name:
+    "geirsson"
+  title:
+    "Move fast and automatically refactor things"
+  type:
+    "Presentation"
+  abstract:
+    "<p>Move fast and automatically refactor things. That’s my dream at least, and
+    I’ve been working hard to make it a reality. Scalafix is a new tool and library
+    to create „rewrites” that refactor Scala code.</p>
+
+    <p>Rewrites are composed of „patches”, which is a small algebra of operations
+    that can be assembled to run as a single refactoring step. The mission of scalafix
+    is to help automate the migration between Scala compiler and library versions.</p>
+
+    <p>In this talk, you will learn how scalafix is implemented on top of scala.meta, a
+    metaprogramming toolkit that makes it easy to manipulate Scala code as data. You’ll
+    see that anyone can write custom migration scripts with scalafix. By the end of the
+    talk, you may be inspired to refactor your company’s internal codebase.</p>"
+  speakers:
+  -
+    name:
+      "Ólafur Páll Geirsson"
+    bio:
+      "<p>Ólafur Páll is an engineer at the Scala Center working on devtools. He is the
+      author of scalafmt and a scala.meta maintainer. When Ólafur is not coding, he likes
+      to bike up mountain Fløien in Bergen, Norway, where he lives half of the time.</p>"
+    image:
+      "geirsson.png"
+    twitter_handle:
+      "@olafurpg"
+    twitter_link:
+      "https://twitter.com/olafurpg"

@@ -557,3 +557,46 @@
       "@ctford"
     twitter_link:
       "https://twitter.com/ctford"
+
+- page_name:
+    "hostwinje"
+  title:
+    "Proofessional Lambda Calculus"
+  type:
+    "Presentation"
+  abstract:
+    "<p>What do we know about logic and programming? Well not much perhaps, but we do know that logic is
+    terribly hard (and proving things is even harder), whereas you can teach yourself C in 24 hours. And
+    so it would be useful if there was some correspondence between logic and programming, because then
+    we could do the easy thing instead of the hard thing! Ha ha! And lo and behold! There is! By magic,
+    luck or the nature of the universe, there is a deep corresporphism between the two, that we will explore
+    in this talk. Which is to say we'll have a chat and run some programs to produce walls of illegible
+    symbols for your viewing pleasure.</p>"
+  speakers:
+  -
+    name:
+      "Einar W. Høst"
+    bio:
+      "<p>Einar W. Høst programs computers at NRK, the Norwegian public broadcaster. His heretic views
+      include thinking before programming and making drawings to understand things better. This arrogant
+      mindset no doubt stems from the idle years spent obtaining a PhD in Computer Science from the
+      University of Oslo.</p>"
+    image:
+      "host.png"
+    twitter_handle:
+      "@einarwh"
+    twitter_link:
+      "https://twitter.com/einarwh"
+  -
+    name:
+      "Jonas Winje"
+    bio:
+      "<p>Jonas is a developer at Computas. He likes pretty animals and programming languages, and has
+      an MSc in Computer Science from the University of Oslo. Dislikes things. (Also likes cute animals.
+      (Some animals are pretty animals and are also cute animals.))</p>"
+    image:
+      "winje.png"
+    twitter_handle:
+      "@JonasWinje"
+    twitter_link:
+      "https://twitter.com/JonasWinje"

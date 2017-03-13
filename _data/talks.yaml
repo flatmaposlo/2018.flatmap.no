@@ -518,3 +518,42 @@
       "@adilakhter"
     twitter_link:
       "https://twitter.com/adilakhter"
+
+- page_name:
+    "ford"
+  title:
+    "African Polyphony and Polyrhythm"
+  type:
+    "Presentation"
+  abstract:
+    "<p>Ethnomusicologists face a dilemma: either shoehorn African music into European notation, or create custom
+    DSLs that can only be understood by a select band of European ethnomusicologists. Computational musicologists
+    can solve this problem, because we have principled ways of modelling specific idioms in terms of general
+    computation. What's more, our models can be executed to generate actual music.</p>
+
+    <p>Simha Arom is a French-Israeli ethnomusicologist. In the book from which the title of this talk is
+    borrowed, he describes the principles underlying the musical system of traditional central African polyphony
+    and polyrhythm. Arom invented ingenious recording techniques for deconstructing and systematising musical
+    cultures that had no previous tradition of musical theory. He tested his models by using them to recreate
+    music and inviting central African musicians to critique the results.</p>
+
+    <p>This talk will argue that music-as-code is an ideal way to represent Arom's insights. I will show the
+    full truth in the Lévi-Strauss quote with which Arom prefaces his book:
+    \"The proof of the analysis is in the synthesis.\" Programming has played its part in the homogenisation of
+    global culture, but the universality of the lambda calculus also affords a golden opportunity for code to
+    become a point of interchange between formerly incompatible musical systems.</p>"
+  speakers:
+  -
+    name:
+      "Chris Ford"
+    bio:
+      "<p>Chris is a certified BABE (Bachelor of Arts, Bachelor of Engineering), and consequentially an
+      idiophile and technophobe. He regards computers with fascination in theory and suspicion in practice.
+      Chris began to make music with code partly to compensate for his poor playing technique, and partly because
+      air piano is unsatisfying. When he works, he works for ThoughtWorks, though that isn't all the time. </p>"
+    image:
+      "ford.png"
+    twitter_handle:
+      "@ctford"
+    twitter_link:
+      "https://twitter.com/ctford"

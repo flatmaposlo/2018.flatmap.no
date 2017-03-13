@@ -423,3 +423,34 @@
       "@mollerse"
     twitter_link:
       "https://twitter.com/mollerse"
+
+- page_name:
+    "harlin"
+  title:
+    "Better testing with less code"
+  type:
+    "Workshop"
+  abstract:
+    "<p>TDD leads to better production code, but it has its limitations. We can only write so many
+    tests, and the more tests we maintain, the more tests we need to change with new requirements.
+    What often causes bugs are the cases that we didn’t think about. With property based testing we
+    write fewer tests, with less boilerplate, that test more. In this workshop we will take a closer
+    look at ScalaCheck and how we can use it to write tests that document your business rules explicitly.
+    This will be done by generation of every possible input, calculation of satisfactory output, and
+    automation of hundreds of checks in a single test case. Come see how property-based testing can
+    press you and your code to higher levels of correctness and simplicity.</p>"
+  speakers:
+  -
+    name:
+      "Magnus Härlin"
+    bio:
+      "<p>With a love for functional programming and automation Magnus Härlin from SpeedLedger works
+      with agile development. He focuses on automating the entire chain from testing to continuous
+      delivery to be able to deliver high quality software. He's introduced testing into organizations
+      and integrated it into the development process.</p>"
+    image:
+      "harlin.png"
+    twitter_handle:
+      "@MagnusHarlin"
+    twitter_link:
+      "https://twitter.com/MagnusHarlin"

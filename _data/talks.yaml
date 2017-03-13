@@ -361,3 +361,65 @@
       "@TapadEng"
     twitter_link:
       "https://twitter.com/TapadEng"
+
+- page_name:
+    "mollersen"
+  title:
+    "Rediscovering Concatenative Languages with Creative Programming"
+  type:
+    "Presentation"
+  abstract:
+    "<p>The strange and wonderful family of languages known as Concatenative Programming Languages had
+    its golden era with FORTH in the 70s and early 80s, after which they largely faded from the mainstream.
+    Relegated to being of mostly academic interest, we could question whether these languages still have a
+    place in the programming world of today.</p>
+
+    <p>The ability to quickly combine things in new ways, experiment with parameters and tweak the compositions
+    is integral to keeping the creative flow. Being the product of a remarkably ahead of its time philosophy
+    of programming, the FORTH way of decomposing problems and composing solutions is a very good fit for
+    creative endeavors.</p>
+
+    <p>Are there still things to learn from this strange and wonderful family of programming languages?
+    Can we explore the teachings of Concatenative Languages while having fun being creative with
+    programming? Let's find out.</p>
+
+    <p>Outline:
+    (some thoughts about how I will structure the talk)
+    An introduction to the history of Concatenative Languages.
+    <ul>
+      <li>What was the reason for FORTHs inception in the late 60s?</li>
+      <li>What was the FORTH philosophy of programming and how did it influence the design of FORTH?</li>
+      <li>How have the family of languages evolved over the years and which lessons have they learned from other
+      languages?</li>
+    </ul>
+
+    What does a Concatenative Language look like?
+    <ul>
+      <li>Basic syntax</li>
+      <li>The mechanics of the stack</li>
+      <li>Some musings on how simple the grammar of a concatenative langauge can be</li>
+    </ul>
+
+    How does this relate to the art of creative programming?
+    <ul>
+      <li>Look at some examples of generative art implemented with a concatenative language that runs in the browser
+      and interacts with the canvas-element.</li>
+    </ul>
+    </p>"
+  speakers:
+  -
+    name:
+      "Stian Veum Møllersen"
+    bio:
+      "<p>Developer based in Oslo. A developer that actually enjoys CSS, makes prolog webservices for fun and
+      thinks prototypical inheritance was a good idea. Loves having fun with programming and exploring the
+      weirder side of our crafts relatively short history.</p>
+
+      <p>Currently working as a consultant and Design Engineering practice lead at BEKK. Dealing mostly with
+      large scale web applications.</p>"
+    image:
+      "mollersen.png"
+    twitter_handle:
+      "@mollerse"
+    twitter_link:
+      "https://twitter.com/mollerse"

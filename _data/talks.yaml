@@ -292,3 +292,40 @@
       "@ewndl"
     twitter_link:
       "https://twitter.com/ewndl"
+
+- page_name:
+    "hauck"
+  title:
+    "Functional Web Services with Final Encoding"
+  type:
+    "Presentation"
+  abstract:
+    '<p>In this talk, we will join Markus Hauck into the land of functional web services using
+    final encodings.  We will see what a final encoding is and how to write embedded DSLs in
+    this style.  After that we can implement a web service using a DSL written in the final
+    encoding and compare that with the normal OO-heavy style.</p>
+
+    <p>The talk will show the so called "final encoding" technique that is somehow related to
+    free monads, but as been overlooked for some time now.  They also allow an embedded DSL that
+    can be "interpreted" differently according to your mood, but compose more natural than coproducts
+    and free monads.  I want to show in this presentation a way to write a whole web service using
+    for example http4s or akka-http in this style and how nice it is for testing stuff by swapping
+    out interpreters.  I hope that the talk can cover both beginner topics (how to write web services
+    in a more functional style) as well as a little advanced ground (how to write your final encoding).</p>'
+  speakers:
+  -
+    name:
+      "Markus Hauck"
+    bio:
+      "<p>Markus is a german IT Consultant for codecentric AG. He has done Scala since about 7 years, interleaved
+      with quite some Haskell love.</p>
+
+      <p>Past speaking experience includes flatMap(Oslo) 2016 (Free Monads and Free Applicatives),
+      Scala.io 2016 in Lyon as well as the Advanced Scala Training during ScalaDays Berling 2016 and
+      the coming ScalaDays Copenhagen 2017.</p>"
+    image:
+      "hauck.png"
+    twitter_handle:
+      "@markus1189"
+    twitter_link:
+      "https://twitter.com/markus1189"

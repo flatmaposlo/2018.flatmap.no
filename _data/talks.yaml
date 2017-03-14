@@ -576,3 +576,32 @@
       "@JonasWinje"
     twitter_link:
       "https://twitter.com/JonasWinje"
+
+- page_name:
+    "kushka"
+  title:
+    "Recursion Schemes and Fixed Point Data Types"
+  type:
+    "Presentation"
+  abstract:
+    "<p>Its always challenge to build a good abstraction during work on library. Library codebase must
+    be flexible and modular when user code must be clean and easy understandable. One of variants to
+    build API between library and customer its Free evaluation approach. In that case you as developer
+    is free to interpret customer actions as you want and customer is free to define actions as he
+    want. In my talk I will show how to build API based on recursive abstract data types, describe why
+    its cool and demonstrate some tricks on type system to make customer experience with library better.</p>"
+  speakers:
+  -
+    name:
+      "Arthur Kushka"
+    bio:
+      "<p>A passionate developer that write freaky stuff on Scala for last three years. In love with pure
+      functions and their composition. Working on streaming data processing and event sourced,
+      CQRS services in AutoScout24.</p>"
+    image:
+      "kushka.png"
+    twitter_handle:
+      "@arhelmus"
+    twitter_link:
+      "https://twitter.com/arhelmus"
+

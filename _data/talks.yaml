@@ -381,31 +381,7 @@
 
     <p>Are there still things to learn from this strange and wonderful family of programming languages?
     Can we explore the teachings of Concatenative Languages while having fun being creative with
-    programming? Let's find out.</p>
-
-    <p>Outline:
-    (some thoughts about how I will structure the talk)
-    An introduction to the history of Concatenative Languages.
-    <ul>
-      <li>What was the reason for FORTHs inception in the late 60s?</li>
-      <li>What was the FORTH philosophy of programming and how did it influence the design of FORTH?</li>
-      <li>How have the family of languages evolved over the years and which lessons have they learned from other
-      languages?</li>
-    </ul>
-
-    What does a Concatenative Language look like?
-    <ul>
-      <li>Basic syntax</li>
-      <li>The mechanics of the stack</li>
-      <li>Some musings on how simple the grammar of a concatenative langauge can be</li>
-    </ul>
-
-    How does this relate to the art of creative programming?
-    <ul>
-      <li>Look at some examples of generative art implemented with a concatenative language that runs in the browser
-      and interacts with the canvas-element.</li>
-    </ul>
-    </p>"
+    programming? Let's find out.</p>"
   speakers:
   -
     name:

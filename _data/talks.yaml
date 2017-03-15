@@ -626,3 +626,45 @@
     twitter_link:
       "https://twitter.com/sofiacole35"
 
+- page_name:
+    "hamberg"
+  title:
+    "Servant: Web APIs at the Type Level"
+  type:
+    "Presentation"
+  abstract:
+    "<p>Servant is a Haskell library that implements a domain-specific language for web APIs at the type
+    level. By specifying the API as types, you get a clean separation of HTTP logic and the value-level
+    handlers. Also, since the type checker has knowledge about the various endpoints and where they live,
+    it will be able to verify that all handlers return the correct types and headers, and that internal
+    URIs are correct.</p>
+
+    <p>Implementing a server (i.e. a set of handlers for the HTTP endpoints) is just one of several uses
+    of an API type, however. By traversing the type, Servant is also able to derive a Swagger/OpenAPI
+    specification for the API, and even client code in JavaScript and other languages.</p>
+
+    <p>We will look at how Servant achieves a clean separation of HTTP and business logic – true to
+    the core philosophy of HTTP and REST. By not just implementing a server for an API, but also deriving
+    a JavaScript client and a Swagger/OpenAPI specification for the, we will end up with an API with
+    strong correctness guarantees and also documentation and client code that is guaranteed to be
+    correct and up to date.</p>"
+  speakers:
+  -
+    name:
+      "Erlend Hamberg"
+    bio:
+      "<p>Erlend Hamberg started a on computer engineering degree to learn about systems
+      programming and hardware, but veered slightly off course and ended up with a
+      degree in computer science with a specialization in artificial intelligence.
+      He briefly returned to his former passion of low-level programming, working on
+      GPU drivers, but was never able to let go of the power and elegance of
+      functional programming and ended up climbing back up the abstraction ladder.
+      When he is not in front of a computer you can find him in the Oslofjord,
+      kayaking. </p>"
+    image:
+      "hamberg.png"
+    twitter_handle:
+      "@ehamberg"
+    twitter_link:
+      "https://twitter.com/ehamberg"
+

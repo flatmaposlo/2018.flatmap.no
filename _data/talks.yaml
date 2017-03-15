@@ -580,3 +580,49 @@
     twitter_link:
       "https://twitter.com/arhelmus"
 
+- page_name:
+    "daviescole"
+  title:
+    "Scala Services In Action"
+  type:
+    "Presentation"
+  abstract:
+    "<p>Microservices have become one of the main sweet spots for Scala development teams. What
+    frameworks are out there to make delivery teams more productive? How do the stacks, stack up?
+    And what are the important factors for comparison? In this talk Kingsley and Sofia will compare
+    half a dozen of the main microservice frameworks, considering factors from ease of use and
+    supporting documentation to programmer joy. If you're new to microservices or the Scala
+    framework landscape, or just want to see an interesting, fast paced and fun presentation
+    this is for you.</p>"
+  speakers:
+  -
+    name:
+      "Kingsley Davies"
+    bio:
+      "<p>Kingsley is a Partner at Underscore consulting, and has spent over a decade designing,
+      developing and supporting large scale systems for a number of clients including, Betfair,
+      the BBC, Barclaycard and others that don't start with a B ;-) While working to make things
+      better, he’s seen a steady evolution towards functional programming, a sharper focus on
+      development operation teams and tools and decomposing big things into smaller composable things
+      commonly called services. </p>"
+    image:
+      "davies.png"
+    twitter_handle:
+      "@kings13y"
+    twitter_link:
+      "https://twitter.com/kings13y"
+  -
+    name:
+      "Sofia Cole"
+    bio:
+      "<p>Sofia is a software developer at ITV, working on building micro-services in Scala. Scala
+      has been an exciting new challenge, and a skill she is keen to develop further. She enjoys doing
+      fashion hacks based on social media, walks in Richmond park, and exploring London's best
+      brunch spots.﻿</p>"
+    image:
+      "cole.png"
+    twitter_handle:
+      "@sofiacole35"
+    twitter_link:
+      "https://twitter.com/sofiacole35"
+

@@ -5,5 +5,8 @@ layout: default
 {% assign sorted_pages = site.pages | where:"onFrontPage", true %}
 
 <div class="inner">
-  {{ sorted_pages[0].content }}
+  <!--{{ sorted_pages[0].content | markdownify }}-->
+  <h2>TALKS BY</h2>
+        <!--{% include talks.html %}-->
+        {% include talks_frontpage.html %}
 </div>

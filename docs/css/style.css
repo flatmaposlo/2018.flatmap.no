@@ -236,3 +236,27 @@ a:hover {
   border-bottom-right-radius: 2em;
   border-bottom-left-radius: 2em;
   padding: .7em; }
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.gallery__item {
+  margin-bottom: 2.5em;
+  text-align: center;
+  flex-basis: 100%; }
+  .gallery__item img {
+    width: 30%; }
+  @media screen and (min-width: 400px) {
+    .gallery__item {
+      flex-basis: 30.1%;
+      margin-bottom: 4em; }
+      .gallery__item img {
+        width: 50%; } }
+  @media screen and (min-width: 800px) {
+    .gallery__item {
+      flex-basis: 20.1%;
+      margin-bottom: 4em; }
+      .gallery__item img {
+        width: 100%; } }

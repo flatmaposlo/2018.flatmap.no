@@ -707,3 +707,44 @@
     twitter_link:
       "https://twitter.com/ValentinKasas"
 
+- page_name:
+    "hall"
+  title:
+    "Elm Workshop"
+  type:
+    "Workshop"
+  abstract:
+    "<p>Want to learn Elm? Curious to try out an ML language praised for
+    making a developer's life easier? Maybe you just use Redux at work,
+    and would like to see where it all started. Come check out the Elm
+    workshop! We'll first take a little look at a working Elm example,
+    before jumping straight in to a test-driven Elm learning experience.
+    This workshop is intended for those with little Elm experience, but
+    curious experienced Elm developers may like to see how to test Elm
+    views in production! You'll need a laptop that isn't ARM based, and
+    ideally, Elm installed prior to the workshop. If you have any
+    questions about how to solve any problems with Elm, Noah is the person
+    to ask, having been responsible or partially responsible for the
+    majority of proof-of-concepts and tooling found in the world of Elm. </p>"
+  speakers:
+  -
+    name:
+      "Noah Hall"
+    bio:
+      "<p>Noah Hall started his production life by creating a research and
+      development startup, focusing on creating prototypes based around
+      psychology, data analysis, and healthcare. He has been active in the
+      Elm community for over 3 years, having used Elm in production since
+      0.15. He has been a contributor to Elm both in code, ideas, and
+      feedback, and now runs the Elm community Github group as well as the
+      Elm Slack team. He used to work as a researcher focusing on the
+      influence of functional programming on modern web development, before
+      he joined NoRedInk to work on Elm. Now he works at Fusetools, making
+      mobile development easier for designers and developers.</p>"
+    image:
+      "hall.png"
+    twitter_handle:
+      "@eeue56"
+    twitter_link:
+      "https://twitter.com/eeue56"
+

@@ -748,3 +748,28 @@
     twitter_link:
       "https://twitter.com/eeue56"
 
+- page_name:
+    "matuszak"
+  title:
+    "The dark side of the moon. Functional optics using Monocle."
+  type:
+    "Workshop"
+  abstract:
+    "<p>During this workshop we will go together thru the basics of functional optics using Monocle library.
+    Functional optics are much more then commonly known lenses. They can be used in variety of places
+    improving readability and code quality. We will start with classic implementation and if the time
+    permits we will dive deep into van laarhoven and profunctor representation</p>"
+  speakers:
+  -
+    name:
+      "Marcin Matuszak"
+    bio:
+      "<p>Marcin is an enthusiastic functional programmer living in Wrocław, by far the best
+      city in World. Working for Iterato.rs doing full-time Scala.</p>"
+    image:
+      "matuszak.png"
+    twitter_handle:
+      "@marcinmatuszak"
+    twitter_link:
+      "https://twitter.com/marcinmatuszak"
+

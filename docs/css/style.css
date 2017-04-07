@@ -1,5 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Noto+Serif";
 @import "https://fonts.googleapis.com/css?family=Roboto:900";
+@import "https://fonts.googleapis.com/css?family=Roboto:600";
 @import "https://fonts.googleapis.com/css?family=Roboto:400";
 body {
   margin: 0;
@@ -292,3 +293,64 @@ a:hover {
   font-size: 1.2em; }
   .sold_out .sold_out_info {
     margin-top: .5em; }
+
+.schedule_frontpage {
+  margin-top: 3em;
+  margin-bottom: 5em; }
+  .schedule_frontpage h3 {
+    color: #ac5b5a;
+    font-weight: 800;
+    font-size: 1.5em;
+    margin: 0; }
+  .schedule_frontpage .schedule_speaker {
+    font-weight: 600; }
+  .schedule_frontpage .time {
+    color: #CAAD9A;
+    font-weight: 800;
+    font-size: 1.5em;
+    background-color: #1e1e28;
+    padding-top: 1.5em;
+    padding-bottom: .7em; }
+  .schedule_frontpage ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  .schedule_frontpage .schedule {
+    font-family: "Roboto", "Helvetica";
+    font-weight: 200; }
+    .schedule_frontpage .schedule .conference {
+      background-color: white;
+      color: #23262d;
+      padding: .5em; }
+    .schedule_frontpage .schedule .talk {
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      text-align: left;
+      background-color: #383C47; }
+    .schedule_frontpage .schedule .workshop {
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      text-align: left; }
+    .schedule_frontpage .schedule a {
+      color: white; }
+    .schedule_frontpage .schedule ul.tracks {
+      height: 100%;
+      width: 100%;
+      display: table; }
+    .schedule_frontpage .schedule li.track {
+      width: 50%;
+      background-color: #383C47;
+      height: 100%;
+      display: table-cell; }
+    .schedule_frontpage .schedule li.workshops {
+      width: 50%;
+      background-color: #ac5b5a;
+      height: 100%;
+      display: table-cell; }
+
+.text-center {
+  text-align: center; }

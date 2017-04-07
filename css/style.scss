@@ -3,6 +3,7 @@
 
 @import "https://fonts.googleapis.com/css?family=Noto+Serif";
 @import "https://fonts.googleapis.com/css?family=Roboto:900";
+@import "https://fonts.googleapis.com/css?family=Roboto:600";
 @import "https://fonts.googleapis.com/css?family=Roboto:400";
 @import "susy";
 
@@ -383,4 +384,95 @@ a:hover {
   .sold_out_info {
     margin-top: .5em;
   }
+}
+
+.schedule_frontpage {
+
+  margin-top: 3em;
+  margin-bottom: 5em;
+
+  h3 {
+    color: $linkColor;
+    font-weight: 800;
+    font-size: 1.5em;
+    margin: 0;
+  }
+
+  .schedule_speaker {
+    //font-weight: bold;
+    font-weight: 600;
+  }
+
+  .time {
+    color: $headerColor;
+    font-weight: 800;
+    font-size: 1.5em;  
+    background-color: $bgColor; 
+    padding-top: 1.5em;
+    padding-bottom: .7em;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .schedule {
+
+    font-family: "Roboto", "Helvetica";
+    font-weight:  200;
+
+    .conference {
+      background-color: white;
+      color: #23262d;
+      padding: .5em;
+    }
+
+    .talk {
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      text-align: left;   
+      background-color: #383C47;
+    }
+
+    .workshop {
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      text-align: left;  
+    }
+
+    a {
+      color: white;
+    }
+
+    ul.tracks {
+      height: 100%;
+      width: 100%;
+      display: table;
+    }
+
+    li.track {
+      width: 50%; 
+      background-color: #383C47;
+      height: 100%;
+      display: table-cell;
+    }
+    
+    li.workshops {
+      width: 50%;
+      background-color: #ac5b5a;    
+      height: 100%;
+      display: table-cell;
+    }
+
+  }
+}
+
+.text-center {
+  text-align: center;
 }

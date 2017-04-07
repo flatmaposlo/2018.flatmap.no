@@ -751,7 +751,7 @@
 - page_name:
     "matuszak"
   title:
-    "The dark side of the moon. Functional optics using Monocle."
+    "The dark side of the moon. Functional optics using Monocle"
   type:
     "Workshop"
   abstract:
@@ -772,4 +772,41 @@
       "@marcinmatuszak"
     twitter_link:
       "https://twitter.com/marcinmatuszak"
+
+- page_name:
+    "romstad"
+  title:
+    "How modern chess programs work"
+  type:
+    "Presentation"
+  abstract:
+    "<p>While computer go has received lots of attention recently with the tremendous success of 
+    AlphaGo, computer chess has generally been regarded as a \"solved\" problem since the Kasparov 
+    vs Deep Blue match in 1997. In reality, chess programs have made enormous progress since then.
+    </p>
+    <p>
+    This talk assumes a basic understanding of the alpha-beta algorithm as taught in many computer 
+    science courses, and describes the techniques used by the current top programs and how they 
+    differ from Deep Blue and other programs of that era. We will also discuss how the falling 
+    prestige and financial rewards of computer chess has, paradoxically, vastly improved the rate 
+    of progress.
+    </p>"
+  speakers:
+  -
+    name:
+      "Tord Romstad"
+    bio:
+      "<p>Tord is an algebraic geometer by education and has no formal background in computer science. 
+      He taught himself programming in order to use it in his mathematical research, and in order to 
+      automate the tedious and time-consuming task of playing chess, which he wasted so much time on as 
+      a teenager. His native language is Common Lisp, but he is currently making a living from writing 
+      Clojure, ClojureScript and Swift at Play Magnus AS. In his spare time, he likes reading science 
+      fiction and -- when he's not injured -- training sprinting and jumping.
+      </p>"
+    image:
+      "romstad.png"
+    twitter_handle:
+      "@tordr"
+    twitter_link:
+      "https://twitter.com/tordr"
 

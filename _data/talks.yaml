@@ -780,15 +780,15 @@
   type:
     "Presentation"
   abstract:
-    "<p>While computer go has received lots of attention recently with the tremendous success of 
-    AlphaGo, computer chess has generally been regarded as a \"solved\" problem since the Kasparov 
+    "<p>While computer go has received lots of attention recently with the tremendous success of
+    AlphaGo, computer chess has generally been regarded as a \"solved\" problem since the Kasparov
     vs Deep Blue match in 1997. In reality, chess programs have made enormous progress since then.
     </p>
     <p>
-    This talk assumes a basic understanding of the alpha-beta algorithm as taught in many computer 
-    science courses, and describes the techniques used by the current top programs and how they 
-    differ from Deep Blue and other programs of that era. We will also discuss how the falling 
-    prestige and financial rewards of computer chess has, paradoxically, vastly improved the rate 
+    This talk assumes a basic understanding of the alpha-beta algorithm as taught in many computer
+    science courses, and describes the techniques used by the current top programs and how they
+    differ from Deep Blue and other programs of that era. We will also discuss how the falling
+    prestige and financial rewards of computer chess has, paradoxically, vastly improved the rate
     of progress.
     </p>"
   speakers:
@@ -796,11 +796,11 @@
     name:
       "Tord Romstad"
     bio:
-      "<p>Tord is an algebraic geometer by education and has no formal background in computer science. 
-      He taught himself programming in order to use it in his mathematical research, and in order to 
-      automate the tedious and time-consuming task of playing chess, which he wasted so much time on as 
-      a teenager. His native language is Common Lisp, but he is currently making a living from writing 
-      Clojure, ClojureScript and Swift at Play Magnus AS. In his spare time, he likes reading science 
+      "<p>Tord is an algebraic geometer by education and has no formal background in computer science.
+      He taught himself programming in order to use it in his mathematical research, and in order to
+      automate the tedious and time-consuming task of playing chess, which he wasted so much time on as
+      a teenager. His native language is Common Lisp, but he is currently making a living from writing
+      Clojure, ClojureScript and Swift at Play Magnus AS. In his spare time, he likes reading science
       fiction and -- when he's not injured -- training sprinting and jumping.
       </p>"
     image:
@@ -810,3 +810,57 @@
     twitter_link:
       "https://twitter.com/tordr"
 
+- page_name:
+    "berg_skytteren"
+  title:
+      "Scala.js - an introduction"
+  type:
+      "Workshop"
+  abstract:
+      "<p>Scala.js is a safer way to build robust web applications. We have a
+      good programming language, a stable environment and a fantastic selection
+      of cross-compiled libraries.</p>
+
+      <p>After this workshop you will be ready to continue coding with Scala.js
+      by yourself.</p>
+
+      <p>We will start out by exploring a template sbt project so you can get a
+      feel for how the build pipeline works. Participants will then get some
+      intuition about what Scala.js can do and cannot do.</p>
+
+      <p>Finally, we will see how we share source code between client and
+      server, and how we can get awesome type-safe Ajax calls
+      (courtesy of autowire) with automatic Json codec derivation (with uPickle)
+      </p>
+
+      <p>Knowledge of Scala is recommended. Frontend experience is beneficial but not at all necessary.
+      </p>
+
+      <p>💥 Important! 💥 Are you going to attend the workshop? Be sure to
+      follow instructions in the TLDR of the README at
+      <a href=\"https://github.com/oyvindberg/scalajs-workshop\">
+      https://github.com/oyvindberg/scalajs-workshop</a>
+      </p>"
+  speakers:
+    -
+      name:
+          "Øyvind Raddum Berg"
+      bio:
+          "Øyvind is a consultant and developer from Oslo, working for Arktekk."
+      image:
+        "berg.png"
+      twitter_handle:
+        "@olvindberg"
+      twitter_link:
+        "https://twitter.com/olvindberg"
+    -
+      name:
+          "Stein Kåre Skytteren"
+      bio:
+          "Stein Kåre is a consultant and developer from Oslo, working for Arktekk."
+      image:
+        "skytteren.png"
+      twitter_handle:
+        "@skskytteren"
+      twitter_link:
+        "https://twitter.com/skskytteren"

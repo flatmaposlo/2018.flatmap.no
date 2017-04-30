@@ -234,7 +234,7 @@
   type:
     "Presentation"
   abstract:
-    "<p>Elm is a ML-style functional language that compiles to JavaScript. It's purpose is to provide a delightful
+    "<p>Elm is a ML-style functional language that compiles to JavaScript. Its purpose is to provide a delightful
     development experience, increasing productivity, improving maintainability and creating fewer bugs.</p>
 
     <p>Elm has been around for some time, attracting attention and generating conference talks, but is it

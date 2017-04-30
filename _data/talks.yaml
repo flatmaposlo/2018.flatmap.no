@@ -645,7 +645,7 @@
 
     <p>We will look at how Servant achieves a clean separation of HTTP and business logic – true to
     the core philosophy of HTTP and REST. By not just implementing a server for an API, but also deriving
-    a JavaScript client and a Swagger/OpenAPI specification for the, we will end up with an API with
+    a JavaScript client and a Swagger/OpenAPI specification, we will end up with an API with
     strong correctness guarantees and also documentation and client code that is guaranteed to be
     correct and up to date.</p>"
   speakers:

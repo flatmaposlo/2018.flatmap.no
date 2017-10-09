@@ -1,5 +1,5 @@
 ---
-layout: page
+#layout: page
 title: Talks
 permalink: /talks/
 order: 2

@@ -386,6 +386,27 @@ a:hover {
   }
 }
 
+.announce {
+  font-family: "Roboto", "Helvetica";
+  font-weight: 400;
+
+  border-top: thin solid $linkColor;
+  border-bottom: thin solid $linkColor;
+
+  padding: .7em;
+
+  margin-top: 2em;
+  margin-bottom: 1em;
+  text-align: center;
+  color: $headerColor;
+  text-transform: uppercase;
+  font-size: 1.2em;
+
+  .announce_info {
+    margin-top: .5em;
+  }
+}
+
 .schedule_frontpage {
 
   margin-top: 3em;

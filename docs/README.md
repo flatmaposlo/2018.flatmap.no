@@ -1,8 +1,8 @@
 
 ## DEV
 ```
-gem install foreman
-gem install jekyll bundler
+gem install foreman --user-install
+gem install jekyll bundler --user-install
 npm install -g browser-sync
 
 foreman start

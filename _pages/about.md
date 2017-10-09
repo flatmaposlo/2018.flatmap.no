@@ -14,7 +14,7 @@ and Scala in particular.
 Last year's conference was yet another great success with about 100 energized
 attendants, listening to 22 amazing speakers from all over the world.
 
-The next conference will be on May 2nd and 3rd 2017.
+The next conference will be on May 3rd and 4th 2018.
 The goal for this year is the same. Small and intimate, but with high ambitions.
 We hope you will join us.
 
@@ -22,8 +22,7 @@ We hope you will join us.
 flatMap(Oslo) is organized by a group of developers from Arktekk AS, a small
 independent consultancy based in Oslo, Norway.
 Together with our awesome sponsors we work hard to give you a conference
-tailored for enthusiasts of Scala and functional programming on the Java
-Virtual Machine.
+tailored for enthusiasts of Scala and functional programming in general.
 
 The economic goal for flatMap(Oslo) is to break even. We will put all funds into
 making the conference better.

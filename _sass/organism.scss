@@ -16,9 +16,11 @@
     }
 
     .call_for_speakers{
-        background-color: $color-deep-purple;
-        color: $color-white;
-        padding: $style-margin-medium;
+        a{
+            background-color: $color-deep-purple;
+            color: $color-white;
+            padding: $style-margin-medium;
+        }
     }
 }
 

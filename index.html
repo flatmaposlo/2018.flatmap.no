@@ -2,11 +2,22 @@
 layout: default
 ---
 
-{% assign sorted_pages = site.pages | where:"onFrontPage", true %}
+<aside class="announce">
+  <div class="wrap">
+    {% include hero_announce.html %}
+  </div>
+</aside>
 
-<div class="inner">
-  <!--{{ sorted_pages[0].content | markdownify }}-->
-  <!--<h2>TALKS BY</h2>-->
-        <!--{% include talks.html %}-->
-        <!--{% include talks_frontpage.html %}-->
-</div>
+{% assign sorted_pages = site.pages | where:"onFrontPage", true %}
+<main class="announce">
+  <div class="wrap">
+    <div class="inner">
+      <!--{{ sorted_pages[0].content | markdownify }}-->
+      <!--<h2>TALKS BY</h2>-->
+            <!--{% include talks.html %}-->
+            <!--{% include talks_frontpage.html %}-->
+    </div>
+  </div>
+</main>
+
+{% include venue.html %}  

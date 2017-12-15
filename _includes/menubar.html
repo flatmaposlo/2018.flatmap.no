@@ -1,8 +1,10 @@
 <ul>
-  {% assign sorted_pages = site.pages | sort:"order" | where:"layout","page" %}
+  {% assign sorted_pages = site.pages | where:"layout", "page" | sort:"order" %}
   {% for page in sorted_pages %}
+  <li>
     <a href="{{ page.url }}">
-      <li>{{ page.title }}</li>
+      {{ page.title }}
     </a>
+  </li>
     {% endfor %}
 </ul>

@@ -31,62 +31,64 @@
 </head>
 <body>
 
-<div class="wrap">
-  <div class="menubar">
 
+<nav class="menubar">
+    <div class="wrap">
       <ul>
   
   
+  <li>
     <a href="/about/">
-      <li>About</li>
+      About
     </a>
+  </li>
     
+  <li>
     <a href="/code_of_conduct/">
-      <li>Code of conduct</li>
+      Code of conduct
     </a>
+  </li>
     
 </ul>
 
     </div>
+</nav>
+<header class="header">
+  <div class="wrap">
+    
+<a href="/">
+  <picture>
+    <img src="/assets/img/logo-2018.png" alt="flatMap(Oslo) 2018" />
+  </picture>
+</a>
+<div class="date">3-4 May 2018, Oslo Norway</div>
+
   </div>
-  <div class="header">
-    <header>
-  <img src="/assets/img/logo_2017.png" alt="logo" />
-  <div class="date">3-4 May 2018, Oslo Norway</div>
 </header>
 
-  </div>
-
-  <div class="hero">
-  <div>
+<aside class="announce">
+  <div class="wrap">
+    <div class="hero">
     flatMap(Oslo) a functional programming conference
     with focus on Scala and the Java Virtual Machine
-  </div>
 </div>
+<!--
 <div class="tickets">
-  <!--<span class="ticketsAvailable"><a href="#">General Admission sold out! A tiny Last Minute batch will be available April 1st</a></span>-->
-  <div class="wrap">
-  <div class="announce">
-    <div class="announce_info">
-      flatMap(Oslo) will return
-      3.-4. May 2018
-    </div>
-  </div>
-  </div>
+  <span class="ticketsAvailable"><a href="#">General Admission sold out! A tiny Last Minute batch will be available April 1st</a></span>
 </div>
-
-
-  <div class="wrap">
-    <div class="content">
-      
-
-<div class="inner">
-  <!--<h2 id="talks">Talks</h2>
-
-<p>{% include talks.html %}</p>
 -->
-  <!--<h2>TALKS BY</h2>-->
-        <!--<div class="speakers">
+  
+  </div>
+</aside>
+
+
+<main class="announce">
+  <div class="wrap">
+    <div class="inner">
+      <!--
+-->
+      <!--<h2>TALKS BY</h2>-->
+            <!--<div class="speakers">
 
   
     <div class="speaker_gallery_item">
@@ -118,7 +120,7 @@
 
 </div>
 -->
-        <!--<div class="speakers">
+            <!--<div class="speakers">
 
   
     <div class="speaker_gallery_item">
@@ -149,70 +151,187 @@
 </div>
 
 -->
-</div>
-
     </div>
   </div>
+</main>
 
-<!--
-  <div class="footer">
-    <footer class="friends-footer">
+
+<article id="venue">
+    <div class="wrap">
+        <div class="address">
+            <h2>Venue</h2>
+            <address>
+                <div>Gamle Museet</div>
+                <div>Dronningens gate 4</div>
+                <div>Oslo</div>
+            </address>
+            <a class="button" href="https://www.gamlemuseet.no/the-old-museum/" target="_blank">Website</a>
+        </div>
+    </div>
+    <div id="map" style="overflow: hidden;"/>
+    <script>
+        function initMap() {
+
+            var colors = {
+                water :    "#673ab7",
+                slate :    "#555555",
+                grey :     "#BBBBBB",
+                greyDkr :  "#888888",
+                white :    "#EEEEEE"
+            }
+            
+            var mapStyle = [
+              {
+                "stylers": [
+                  { "color": colors.grey }
+                ]
+              },{
+                "featureType": "poi",
+                "stylers": [
+                  { "visibility": "off" }
+                ]
+              },{
+                "featureType": "transit",
+                "stylers": [
+                  { "visibility": "off" }
+                ]
+              },{
+                "featureType": "road",
+                "elementType": "labels.icon",
+                "stylers": [
+                  { "visibility": "off" }
+                ]
+              },{
+                "elementType": "labels.text.fill",
+                "stylers": [
+                  { "visibility": "off" }
+                ]
+              },{
+                "elementType": "labels.text.stroke",
+                "stylers": [
+                  { "visibility": "off" }
+                ]
+              },{
+                "featureType": "administrative",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                  { "visibility": "on" },
+                  { "color": colors.white }
+                ]
+              },{
+                "featureType": "administrative",
+                "elementType": "labels.text.stroke",
+                "stylers": [
+                  { "visibility": "on" },
+                  { "color": colors.slate }
+                ]
+              },{
+                "featureType": "landscape.man_made",
+                "stylers": [
+                  { "visibility": "on" },
+                  { "color": colors.greyDkr }
+                ]
+              },{
+                "featureType": "road",
+                "elementType": "geometry.fill",
+                "stylers": [
+                  { "color": colors.white }
+                ]
+              },{
+                "featureType": "water",
+                "stylers": [
+                  { "color": colors.water }
+                ]
+              },{
+                "featureType": "water",
+                "elementType": "labels.text.stroke",
+                "stylers": [
+                  { "visibility": "on" },
+                  { "color": colors.slate }
+                ]
+              },{
+                "featureType": "road",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                  { "visibility": "on" },
+                  { "color": colors.slate }
+                ]
+              },{
+                "featureType": "road",
+                "elementType": "labels.text.stroke",
+                "stylers": [
+                  { "visibility": "on" },
+                  { "color": colors.white }
+                ]
+              }
+            ];
+            
+            
+            var venuePosition = new google.maps.LatLng(59.9080339,10.74416999999994);
+            var center = new google.maps.LatLng(59.9080339, 10.74416999999994);
+            var mapOptions = {
+                center: center,
+                zoom: 13,
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                scaleControl: false,
+                scrollwheel: false,
+                styles: mapStyle
+            }
+            
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+            var markerVenue = new google.maps.Marker({
+                position: venuePosition,
+                map: map,
+                title: 'Gamle Museet',
+                icon: 'assets/img/locationMarker.png'
+            });
+
+        }
+    </script>
+    <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBr0YYhZtK8OCQGZobY2uY8Ilis8B25LkE&callback=initMap">
+    </script>
+</article>  
+
+
+<footer class="footer">
   <div class="wrap">
-    <div class="gallerywrap">
-      <h3>Sponsors</h3>
-      <ul class="gallery">
-        <li class="gallery-item">
-          <a href="http://www.arktekk.no" target="_blank">
-            <img src="/assets/img/arktekk.png" alt="arktekk.no" />
-          </a>
-        </li>
-        <li class="gallery-item">
-          <a href="http://www.bekk.no" target="_blank">
-            <img src="/assets/img/bekk.png" alt="bekk.no" />
-          </a>
-        </li>
-        <li class="gallery-item">
-          <a href="https://hjemmehos.finn.no" target="_blank">
-            <img src="/assets/img/finn.png" alt="finn.no" />
-          </a>
-        </li>
-        <li class="gallery-item">
-          <a href="https://itera.no" target="_blank">
-            <img src="/assets/img/itera.png" alt="itera.no" />
-          </a>
-        </li>
-        <li class="gallery-item">
-          <a href="https://knowit.no" target="_blank">
-            <img src="/assets/img/knowit.png" alt="knowit.no" />
-          </a>
-        </li>
-        <li class="gallery-item">
-          <a href="https://kodemaker.no" target="_blank">
-            <img src="/assets/img/kodemaker.png" alt="kodemaker.no" />
-          </a>
-        </li>
-        <li class="gallery-item">
-          <a href="https://monokkel.no" target="_blank">
-            <img src="/assets/img/monokkel.png" alt="monokkel.no" />
-          </a>
-        </li>
-        <li class="gallery-item">
-          <a href="http://www.tapad.com" target="_blank">
-            <img src="/assets/img/tapad.png" alt="tapad.com" />
-          </a>
-        </li>
-        <li class="gallery-item">
-          <a href="http://www.zenior.no" target="_blank">
-            <img src="/assets/img/zenior.png" alt="zenior.no" />
-          </a>
-        </li>        
-      </ul>
-    </div>
+    
+<div class="sponsorer">
+  <h3>Sponsors</h3>
+  <ul class="gallery">
+    
+      <li>
+        <a href="http://www.arktekk.no" target="_blank">
+          <img src="/assets/img/arktekk.png" alt="arktekk.no" />
+        </a>
+      </li>
+    
+      <li>
+        <a href="http://www.bekk.no" target="_blank">
+          <img src="/assets/img/bekk.png" alt="bekk.no" />
+        </a>
+      </li>
+    
+      <li>
+        <a href="http://www.tapad.com" target="_blank">
+          <img src="/assets/img/tapad.png" alt="tapad.com" />
+        </a>
+      </li>
+    
+      <li>
+        <a href="http://www.kantega.no" target="_blank">
+          <img src="/assets/img/kantega.png" alt="kantega.no" />
+        </a>
+      </li>
+    
+  </ul>
+  <div>
     <div>Do you want to sponsor flatMap(Oslo)?</div>
-    Send an email to <a href="mailto:flatmap@arktekk.no">flatmap@arktekk.no</a>
+    <div>Send an email to <a href="mailto:flatmap@arktekk.no">flatmap@arktekk.no</a></div>
   </div>
-</footer>
-<footer class="contact-footer">
+</div>
+<div class="about">
   <div>flatMap(Oslo)</div>
   <div><a href="mailto:flatmap@arktekk.no">flatmap@arktekk.no</a></div>
   <div><a href="https://twitter.com/flatmaposlo">@flatmaposlo</a></div>
@@ -224,12 +343,13 @@
     <a href="http://2013.flatmap.no">2013</a> |
     <a href="http://2014.flatmap.no">2014</a> |
     <a href="http://2015.flatmap.no">2015</a> |
-    <a href="http://2016.flatmap.no">2016</a>
+    <a href="http://2016.flatmap.no">2016</a> |
+    <a href="http://2017.flatmap.no">2017</a>
+  </div>
+</div>
+
+
   </div>
 </footer>
-
-  </div>
--->
-
 </body>
 </html>

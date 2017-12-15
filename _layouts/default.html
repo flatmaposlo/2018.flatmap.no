@@ -5,29 +5,24 @@
 </head>
 <body>
 
-<div class="wrap">
-  <div class="menubar">
 
+<nav class="menubar">
+    <div class="wrap">
       {% include menubar.html %}
     </div>
-  </div>
-  <div class="header">
+</nav>
+<header class="header">
+  <div class="wrap">
     {% include header.html %}
   </div>
+</header>
 
-  {% include hero_announce.html %}
+{{ content }}
 
+<footer class="footer">
   <div class="wrap">
-    <div class="content">
-      {{ content }}
-    </div>
-  </div>
-
-<!--
-  <div class="footer">
     {% include footer.html %}
   </div>
--->
-
+</footer>
 </body>
 </html>

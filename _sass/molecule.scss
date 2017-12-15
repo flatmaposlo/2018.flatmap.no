@@ -1,0 +1,118 @@
+@import "atom";
+
+.wrap {
+  width: calc(100% - 1rem);
+  max-width: 720px;
+  display: block;
+  margin: 0.5rem auto;
+  clear: both;
+}
+  
+.menubar {
+  padding-bottom: $style-margin-medium;
+  background-color: $color-deep-purple;
+  color: $color-white;
+  width: 100%;
+  text-align: center;
+
+  @media screen and (min-width: 610px) {
+      padding-top: $style-margin-medium;
+      padding-bottom: $style-margin-medium;
+  }
+
+  a{
+    color: $color-white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    @media screen and (min-width: 610px) {
+      display: flex;
+      justify-content: center;
+    }
+
+    li {
+      text-align: center;
+      padding-top: $style-margin;
+      padding-bottom: $style-margin;
+      border-bottom: $style-border;
+
+      @media screen and (min-width: 610px) {
+        display: inline;
+        margin-bottom: $style-margin-medium;
+        padding: 0 1.5em;
+        border-bottom: none;
+      }
+    }
+  }
+}
+  
+.header {
+  background-color: $color-deep-purple;
+  color: $color-white;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: $style-margin;
+  padding-bottom: $style-margin-large;
+
+  img {
+    width: 80vh;
+    @media screen and (min-width: 610px) {
+      max-width: 60%;            
+    }
+  }
+}
+
+.hero {
+  margin-left: $style-margin-medium;
+  margin-right: $style-margin-medium;
+  text-align: center;
+  font-size: 1.2rem;
+}
+  
+.content {
+  margin-left: $style-margin-medium;
+  margin-right: $style-margin-medium;
+  margin-bottom: $style-margin-large;
+  color: $color-text;
+}
+
+footer {
+  padding-top: $style-margin-medium;
+  padding-bottom: $style-margin-medium;
+  text-align: center;
+
+  ul {
+    list-style: none;
+  }
+
+  div {
+    margin-top: $style-margin-medium;
+  }
+}
+
+#venue{
+  .address{
+    position: absolute;
+    z-index: 999;
+    background: #364550;
+    color: #fff;
+    margin-top: $style-margin-medium;
+    padding: $style-margin-medium;
+    width: 12rem;
+    h2{
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+
+#map{
+  height: 25vh;
+  min-height: 25vw;
+}

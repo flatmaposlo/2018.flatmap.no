@@ -1,0 +1,77 @@
+@import "molecule";
+
+.announce {
+    
+    padding: $style-margin-medium;
+
+    color: $color-black;
+    background-color: $color-white;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+
+    .wrap {
+        margin-top: $style-margin;
+    }
+
+    .call_for_speakers{
+        background-color: $color-deep-purple;
+        color: $color-white;
+        padding: $style-margin-medium;
+    }
+}
+
+
+
+#venue{
+    
+    padding:0;
+    text-align: center;
+
+    .address{
+        position: absolute;
+        z-index: 999;
+        background: $color-gray-darker;
+        color: #fff;
+        margin-top: $style-margin-medium;
+        padding: $style-margin-medium;
+        width: 12rem;
+        text-align: left;
+        h2{
+            padding: 0;
+            margin: 0;
+        }
+    }
+}
+
+#map{
+    height: 25vh;
+    min-height: 25vw;
+}
+
+.about, .sponsorer {
+  
+    padding-top: $style-margin-large;
+    padding-bottom: $style-margin-medium;
+    text-align: center;
+}
+.about{
+    background-color: $color-gray-light;
+    color: $color-gray-darker;
+    padding-bottom: $style-margin-large;
+    .firm{
+        font-weight: bold;
+    }
+    a{
+        color: $color-gray-darker;
+    }
+}
+
+.footer{
+    background: $color-gray-darker;
+    ul {
+        list-style: none;
+    }
+}
+

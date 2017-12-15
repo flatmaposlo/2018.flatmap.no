@@ -8,14 +8,13 @@ destination: docs
 include: ["_pages"]
 permalink: /:title/
 exclude: [vendor]
-
 includes:
   - _pages
 
+# Build settings
 markdown: kramdown
-
-gems:
-- susy
+plugins:
+  - jekyll-feed
 
 page_gen:
 - data: talks

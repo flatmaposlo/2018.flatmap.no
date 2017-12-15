@@ -4,7 +4,7 @@
   width: calc(100% - 1rem);
   max-width: 720px;
   display: block;
-  margin: 0.5rem auto;
+  margin: 0 auto;
   clear: both;
 }
   
@@ -65,12 +65,17 @@
     @media screen and (min-width: 610px) {
       max-width: 60%;            
     }
+    @media screen and (max-width: 599px) {
+      max-width: calc(100% - 1rem) ;            
+    }
   }
 }
 
 .hero {
   margin-left: $style-margin-medium;
   margin-right: $style-margin-medium;
+  margin-bottom: $style-margin-large;
+  margin-top: $style-margin-large;
   text-align: center;
   font-size: 1.2rem;
 }
@@ -82,37 +87,3 @@
   color: $color-text;
 }
 
-footer {
-  padding-top: $style-margin-medium;
-  padding-bottom: $style-margin-medium;
-  text-align: center;
-
-  ul {
-    list-style: none;
-  }
-
-  div {
-    margin-top: $style-margin-medium;
-  }
-}
-
-#venue{
-  .address{
-    position: absolute;
-    z-index: 999;
-    background: #364550;
-    color: #fff;
-    margin-top: $style-margin-medium;
-    padding: $style-margin-medium;
-    width: 12rem;
-    h2{
-      padding: 0;
-      margin: 0;
-    }
-  }
-}
-
-#map{
-  height: 25vh;
-  min-height: 25vw;
-}

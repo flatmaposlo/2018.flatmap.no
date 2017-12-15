@@ -49,7 +49,7 @@ a:hover { text-decoration: underline; }
 
 p { margin-bottom: 0.6rem; }
 
-.wrap { width: calc(100% - 1rem); max-width: 720px; display: block; margin: 0.5rem auto; clear: both; }
+.wrap { width: calc(100% - 1rem); max-width: 720px; display: block; margin: 0 auto; clear: both; }
 
 .menubar { padding-bottom: 0.6rem; background-color: #673ab7; color: #FFF; width: 100%; text-align: center; }
 @media screen and (min-width: 610px) { .menubar { padding-top: 0.6rem; padding-bottom: 0.6rem; } }
@@ -62,26 +62,29 @@ p { margin-bottom: 0.6rem; }
 .header { background-color: #673ab7; color: #FFF; text-transform: uppercase; text-align: center; padding-top: 0.2rem; padding-bottom: 2rem; }
 .header img { width: 80vh; }
 @media screen and (min-width: 610px) { .header img { max-width: 60%; } }
+@media screen and (max-width: 599px) { .header img { max-width: calc(100% - 1rem); } }
 
-.hero { margin-left: 0.6rem; margin-right: 0.6rem; text-align: center; font-size: 1.2rem; }
+.hero { margin-left: 0.6rem; margin-right: 0.6rem; margin-bottom: 2rem; margin-top: 2rem; text-align: center; font-size: 1.2rem; }
 
 .content { margin-left: 0.6rem; margin-right: 0.6rem; margin-bottom: 2rem; color: #FFF; }
-
-footer { padding-top: 0.6rem; padding-bottom: 0.6rem; text-align: center; }
-footer ul { list-style: none; }
-footer div { margin-top: 0.6rem; }
-
-#venue .address { position: absolute; z-index: 999; background: #364550; color: #fff; margin-top: 0.6rem; padding: 0.6rem; width: 12rem; }
-#venue .address h2 { padding: 0; margin: 0; }
-
-#map { height: 25vh; min-height: 25vw; }
 
 .announce { padding: 0.6rem; color: #212121; background-color: #FFF; text-align: center; text-transform: uppercase; font-size: 1.3rem; }
 .announce .wrap { margin-top: 0.2rem; }
 
-.sponsors { margin-bottom: 2rem; text-align: center; }
+#venue { padding: 0; text-align: center; }
+#venue .address { position: absolute; z-index: 999; background: #333333; color: #fff; margin-top: 0.6rem; padding: 0.6rem; width: 12rem; text-align: left; }
+#venue .address h2 { padding: 0; margin: 0; }
+
+#map { height: 25vh; min-height: 25vw; }
+
+.about, .sponsorer { padding-top: 2rem; padding-bottom: 0.6rem; text-align: center; }
+
+.about { background-color: #cccccc; color: #333333; padding-bottom: 2rem; }
+.about .firm { font-weight: bold; }
+.about a { color: #333333; }
 
 .footer { background: #333333; }
+.footer ul { list-style: none; }
 
 .gallery { clear: both; padding: gutter(8); padding-bottom: 0; }
 .gallery li { margin: 0.2rem; display: inline-block; }

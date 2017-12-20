@@ -16,10 +16,11 @@
     }
 
     .call_for_speakers{
+        background-color: $color-deep-purple;
+        padding: $style-margin-medium;
+        display: inline-block;
         a{
-            background-color: $color-deep-purple;
             color: $color-white;
-            padding: $style-margin-medium;
         }
     }
 }
@@ -38,7 +39,7 @@
         color: #fff;
         margin-top: $style-margin-medium;
         padding: $style-margin-medium;
-        width: 12rem;
+        width: 10rem;
         text-align: left;
         h2{
             padding: 0;
@@ -49,7 +50,7 @@
 
 #map{
     height: 25vh;
-    min-height: 25vw;
+    min-height: 14rem;
 }
 
 .about, .sponsorer {

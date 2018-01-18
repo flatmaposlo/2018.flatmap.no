@@ -9,20 +9,20 @@
   padding: gutter(8);
   padding-bottom: 0;
 
-  li{
+  li {
     margin: $style-margin;
     display: inline-block;
     @media screen and (max-width: 799px) {
-      width: calc((100% - 2rem)/2);
-       
+      width: calc((100% - 2rem) / 2);
+
     }
 
     @media screen and (min-width: 800px) {
-      width: calc((100% - 2rem)/3);
+      width: calc((100% - 2rem) / 3);
     }
 
     img {
-        width: 100%;
+      width: 100%;
     }
   }
 }
@@ -60,27 +60,6 @@
   width: 180px;
 }
 
-.tickets {
-  margin-top: 2em;
-  text-align: center;
-}
-
-.ticketsAvailable {
-
-  border: $style-border;
-  border-top-left-radius: 2em;
-  border-top-right-radius: 2em;
-  border-bottom-right-radius: 2em;
-  border-bottom-left-radius: 2em;
-  padding: .7em;
-}
-
-.flexbox {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 .speakers {
   display: flex;
   flex-wrap: wrap;
@@ -104,7 +83,7 @@
 
   .speakername {
     a {
-      
+
     }
   }
 
@@ -118,7 +97,7 @@
     margin-bottom: 2em;
 
     img {
-        width: 50%;
+      width: 50%;
     }
   }
 
@@ -142,24 +121,6 @@
 
 }
 
-.sold_out {
-
-  border-top: $style-border;
-  border-bottom: $style-border;
-
-  padding: .7em;
-
-  margin-top: 2em;
-  margin-bottom: 1em;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 1.2em;
-
-  .sold_out_info {
-    margin-top: .5em;
-  }
-}
-
 .schedule_frontpage {
 
   margin-top: 3em;
@@ -178,8 +139,8 @@
 
   .time {
     font-weight: 800;
-    font-size: 1.5em;  
-    background-color: $color-background; 
+    font-size: 1.5em;
+    background-color: $color-background;
     padding-top: 1.5em;
     padding-bottom: .7em;
   }
@@ -193,7 +154,7 @@
   .schedule {
 
     font-family: "Roboto", "Helvetica";
-    font-weight:  200;
+    font-weight: 200;
 
     .conference {
       background-color: $color-white;
@@ -206,7 +167,7 @@
       padding-right: 1em;
       padding-top: 1em;
       padding-bottom: 1em;
-      text-align: left;   
+      text-align: left;
       background-color: #383C47;
     }
 
@@ -215,7 +176,7 @@
       padding-right: 1em;
       padding-top: 1em;
       padding-bottom: 1em;
-      text-align: left;  
+      text-align: left;
     }
 
     a {
@@ -229,15 +190,15 @@
     }
 
     li.track {
-      width: 50%; 
+      width: 50%;
       background-color: #383C47;
       height: 100%;
       display: table-cell;
     }
-    
+
     li.workshops {
       width: 50%;
-      background-color: #ac5b5a;    
+      background-color: #ac5b5a;
       height: 100%;
       display: table-cell;
     }

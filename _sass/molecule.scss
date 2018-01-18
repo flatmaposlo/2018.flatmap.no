@@ -7,7 +7,7 @@
   margin: 0 auto;
   clear: both;
 }
-  
+
 .menubar {
   padding-bottom: $style-margin-medium;
   background-color: $color-deep-purple;
@@ -16,11 +16,11 @@
   text-align: center;
 
   @media screen and (min-width: 610px) {
-      padding-top: $style-margin-medium;
-      padding-bottom: $style-margin-medium;
+    padding-top: $style-margin-medium;
+    padding-bottom: $style-margin-medium;
   }
 
-  a{
+  a {
     color: $color-white;
     text-decoration: none;
     text-transform: uppercase;
@@ -51,7 +51,7 @@
     }
   }
 }
-  
+
 .header {
   background-color: $color-deep-purple;
   color: $color-white;
@@ -63,10 +63,10 @@
   img {
     width: 80vh;
     @media screen and (min-width: 610px) {
-      max-width: 60%;            
+      max-width: 60%;
     }
     @media screen and (max-width: 599px) {
-      max-width: calc(100% - 1rem) ;            
+      max-width: calc(100% - 1rem) ;
     }
   }
 }
@@ -79,7 +79,7 @@
   text-align: center;
   font-size: 1.2rem;
 }
-  
+
 .content {
   margin-left: $style-margin-medium;
   margin-right: $style-margin-medium;

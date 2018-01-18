@@ -1,6 +1,6 @@
 @import "theme";
 
-body{
+body {
   font-family: $font-family-base;
   //font-size: 2vw;
   line-height: 1.4;
@@ -11,49 +11,52 @@ body{
   background-color: $color-black;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-heading;
   line-height: 1.2;
 }
 
-h1{
+h1 {
   font-size: calc(1vw + 2.875rem);
   margin: 10*$style-margin 0 2*$style-margin 0;
   text-transform: uppercase;
   text-align: center;
 
 }
-h2{
+
+h2 {
   font-size: 2.6rem;
   margin: 7*$style-margin 0 2*$style-margin 0;
 }
 
-h3{
+h3 {
   font-size: 2rem;
   margin: 5*$style-margin 0 2*$style-margin 0;
 }
 
-h4{
+h4 {
   font-size: 1.8rem;
   margin: 4*$style-margin 0 2*$style-margin 0;
 }
-h5{
+
+h5 {
   font-size: 1.6rem;
   margin: 2*$style-margin 0 $style-margin 0;
 }
-h6{
+
+h6 {
   font-size: 1.4rem;
   margin: 2*$style-margin 0 $style-margin 0;
 }
 
-p{
+p {
   margin-bottom: 2*$style-margin;
   margin-top: 2*$style-margin;
   line-height: 1.4;
   font-size: calc(0.2vw + 1rem);
 }
 
-em{
+em {
   font-style: italic;
 }
 
@@ -62,15 +65,15 @@ strong {
 }
 
 a {
-    text-decoration: underline;
-    color: $color-link;
+  text-decoration: underline;
+  color: $color-link;
 }
 
 a:hover {
   text-decoration: underline;
 }
-  
-p{
+
+p {
   margin-bottom: $style-margin-medium;
 }
 

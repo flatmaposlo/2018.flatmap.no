@@ -1,5 +1,4 @@
 @import "reset";
-
 @import "https://fonts.googleapis.com/css?family=Noto+Serif";
 @import "https://fonts.googleapis.com/css?family=Roboto:900";
 @import "https://fonts.googleapis.com/css?family=Roboto:600";
@@ -12,7 +11,7 @@ $color-gray-light: lighten($color-gray, 20%);
 $color-gray-lighter: lighten($color-gray, 40%);
 $color-gray-dark: darken($color-gray, 20%);
 $color-gray-darker: darken($color-gray, 40%);
-$color-gray-dark-transparent: rgba(3,3,3,.85);
+$color-gray-dark-transparent: rgba(3, 3, 3, .85);
 $color-black: #212121;
 
 $color-change: 30%;
@@ -39,7 +38,8 @@ $color-red-dark: darken($color-red, $color-change);
 
 $color-amber: #FF9800;
 $color-amber-light: lighter($color-amber, $color-change);
-$color-amber-dark: lighter($color-amber, $color-change);;
+$color-amber-dark: lighter($color-amber, $color-change);
+;
 
 /* Theme color */
 $color-background: $color-gray-darker;
@@ -70,12 +70,16 @@ $style-margin-xlarge: $style-margin * 30;
 
 @mixin on-device($media) {
   @if $media == small {
-    @media only screen and (max-width: $break-small) { @content; }
-  }
-  @else if $media == medium {
-    @media only screen and (min-width: $break-small) and (max-width: $break-large) { @content; }
-  }
-  @else if $media == large {
-    @media only screen and (min-width: $break-large) { @content; }
+    @media only screen and (max-width: $break-small) {
+      @content;
+    }
+  } @else if $media == medium {
+    @media only screen and (min-width: $break-small) and (max-width: $break-large) {
+      @content;
+    }
+  } @else if $media == large {
+    @media only screen and (min-width: $break-large) {
+      @content;
+    }
   }
 }

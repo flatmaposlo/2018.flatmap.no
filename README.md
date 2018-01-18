@@ -1,14 +1,10 @@
 
 ## DEV
 ```
-gem install foreman --user-install
-gem install jekyll bundler --user-install
-npm install -g browser-sync
-
-foreman start
+bundle exec jekyll s --watch
 ```
 
 ##PUBLISH
 ```
-bundle exec jekyll build
+git push
 ```

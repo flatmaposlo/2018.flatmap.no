@@ -29,3 +29,4 @@ making the conference better.
 
 If you have any questions, or would like more information, do not hesitate to
 contact us. Send us an email to [flatmap@arktekk.no](mailto:flatmap@arktekk.no).
+

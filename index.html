@@ -2,22 +2,35 @@
 layout: default
 ---
 
+{% assign sorted_pages = site.pages | where:"onFrontPage", true %}
 <aside class="announce">
   <div class="wrap">
     {% include hero.html %}
-  </div>
-</aside>
-
-{% assign sorted_pages = site.pages | where:"onFrontPage", true %}
-<main class="announce">
-  <div class="wrap">
     <div class="inner">
       <!-- { - { sorted_pages[0].content | markdownify } - }-->
       <!--<h2>TALKS BY</h2>-->
-            <!--{ % include talks.html % }-->
-            <!--{ % include talks_frontpage.html % }-->
+      <!--{ % include talks.html % }-->
     </div>
   </div>
-</main>
+</aside>
+
+<div class="wrap">
+  <div class="vertical-space-above"></div>
+  {%include section_ticket_sale.html %}
+
+  <div class="vertical-space-above"></div>
+  {%include section_call_for_paper.html %}
+  <div class="vertical-space-above"></div>
+
+</div>
 
 {% include venue_map.html %}
+
+<div class="wrap">
+  <div class="vertical-space-above"></div>
+  {%include section_venue.html %}
+
+  <div class="vertical-space-above"></div>
+  {%include section_about.html %}
+  <div class="vertical-space-above"></div>
+</div>

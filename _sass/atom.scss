@@ -8,7 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $color-text;
-  background-color: $color-black;
+  background-color: $color-background;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -77,3 +77,10 @@ p {
   margin-bottom: $style-margin-medium;
 }
 
+.vertical-space-above {
+  margin-top: 3rem;
+}
+
+.max-width-90-percent {
+ max-width: 90%;
+}

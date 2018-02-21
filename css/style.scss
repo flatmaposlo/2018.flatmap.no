@@ -3,124 +3,6 @@
 
 @import "../_sass/organism";
 
-.gallery {
-  clear: both;
-
-  padding: gutter(8);
-  padding-bottom: 0;
-
-  li {
-    margin: $style-margin;
-    display: inline-block;
-    @media screen and (max-width: 799px) {
-      width: calc((100% - 2rem) / 2);
-
-    }
-
-    @media screen and (min-width: 800px) {
-      width: calc((100% - 2rem) / 3);
-    }
-
-    img {
-      width: 100%;
-    }
-  }
-}
-
-.talk {
-
-  .abstract {
-    text-align: left;
-
-    margin-bottom: 4em;
-
-    @media screen and (min-width: 400px) {
-      text-align: justify;
-    }
-  }
-
-  h3 {
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
-
-  .bio {
-    text-align: left;
-
-    @media screen and (min-width: 400px) {
-      text-align: justify;
-    }
-  }
-
-  text-align: center;
-
-}
-
-.speakerImage {
-  width: 180px;
-}
-
-.speakers {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.speaker_gallery_item {
-
-  margin-bottom: 1.7em;
-  margin-top: 1.7em;
-
-  text-align: center;
-
-  flex-basis: 100%;
-
-  .titleTalk {
-    a {
-      color: $color-text;
-    }
-  }
-
-  .speakername {
-    a {
-
-    }
-  }
-
-  img {
-    width: 30%;
-  }
-
-  @media screen and(min-width: 400px) {
-    flex-basis: 30.1%;
-
-    margin-bottom: 2em;
-
-    img {
-      width: 50%;
-    }
-  }
-
-  @media screen and (min-width: 800px) {
-    flex-basis: 30.1%;
-
-    .profile {
-      margin: 0;
-      padding: 0;
-    }
-
-    img {
-      width: 60%;
-    }
-
-    margin-bottom: 3em;
-
-    text-align: center;
-
-  }
-
-}
-
 .schedule_frontpage {
 
   margin-top: 3em;
@@ -202,7 +84,6 @@
       height: 100%;
       display: table-cell;
     }
-
   }
 }
 

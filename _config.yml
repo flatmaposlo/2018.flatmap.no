@@ -11,13 +11,12 @@ exclude: [vendor]
 includes:
   - _pages
 
+collections:
+  talks:
+    output: true
+    permalink: /:collection/:name
+
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
-
-page_gen:
-- data: talks
-  template: talk
-  name: page_name
-  dir: talks

@@ -1,0 +1,27 @@
+---
+layout: page
+title: Speakers
+permalink: /speakers
+order: 4
+---
+
+{% assign speakers = site.talks | map: "speakers" | uniq | sort: 'name' %}
+<h1>Speakers</h1>
+<p>Announced speakers</p>
+<div class="speakers">
+{% for speaker in speakers %}
+    <div class="speaker">
+        <img src="{{ site.path }}/assets/img/{{ speaker.image}}" alt="{{speaker.name}}" />
+        <h3>{{ speaker.name }}</h3>
+        <ul class="talks">
+        {% for talk in site.talks  %}
+            {% for talkSpeaker in talk.speakers %}
+                {% if talkSpeaker == speaker %}
+                    <li><a href="{{ talk.url }}">{{ talk.title }}</a></li>
+                 {% endif %}
+            {% endfor %}
+        {% endfor %}
+        </ul>
+    </div>
+{% endfor %}
+</div>

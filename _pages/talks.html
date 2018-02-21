@@ -1,0 +1,20 @@
+---
+layout: page
+title: Talks
+permalink: /talks/list
+order: 4
+---
+<h1>Talks</h1>
+<p>Announced talks</p>
+<div class="talks">
+{% assign talks = site.talks | sort: 'title' %}
+{% for talk in talks %}
+    <h2>{{ talk.title }}</h2>
+    <div class="type">{{ talk.type }}</div> by
+    <div class="speakers">
+        {{ talk.speakers | map: 'name' | sort | array_to_sentence_string }}
+    </div>
+    <p>{{ talk.abstract }}</p>
+    <p><a href="{{ talk.url }}">Details</a></p>
+{% endfor %}
+</div>

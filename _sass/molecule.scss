@@ -87,4 +87,34 @@
   color: $color-text;
 }
 
+.gallery {
+  clear: both;
+
+  padding: gutter(8);
+  padding-bottom: 0;
+
+  li {
+    margin: $style-margin;
+    display: inline-block;
+    @media screen and (max-width: 799px) {
+      width: calc((100% - 2rem) / 2);
+
+    }
+
+    @media screen and (min-width: 800px) {
+      width: calc((100% - 2rem) / 3);
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+
+.speakerImage {
+  width: 180px;
+  border-radius: 90px;
+  margin-top: $style-margin-large;
+}
 

@@ -1,23 +1,26 @@
 ---
 layout: default
+permalink: /talks/:name
 ---
 
 {% assign talk = page %}
 
-<div class="talk">
-<h2>{{ talk.title }}</h2>
-<p>{{ talk.type }}</p>
-<div class="abstract">{{ talk.abstract }}</div>
+<section class="talk">
+  <div class="wrap">
+    <h2>{{ talk.title }}</h2>
+    <p>{{ talk.type }}</p>
+    <div class="description">{{ talk.description }}</div>
 
-{% for speaker in talk.speakers %}
+    {% for speaker in talk.speakers %}
+    <div class="speaker">
+      <a name="{{ speaker.name }}"></a>
+      <img class="speakerImage" src="{{ site.path }}/assets/img/{{ speaker.image}}" alt="{{speaker.name}}" />
+      <h3>{{ speaker.name }}</h3>
+      <p><a href="{{ speaker.twitter_link }}" target="_blank">{{ speaker.twitter_handle }}</a></p>
+      <div class="bio">{{ speaker.bio }}</div>
+    </div>
+    {% endfor %}
+    
+  </div>
 
-<a name="{{ speaker.name }}"></a>
-<p>
-  <img class="speakerImage" src="{{ site.path }}/assets/img/{{ speaker.image}}" alt="{{speaker.name}}" />
-</p>
-<h3>{{ speaker.name }}</h3>
-<p><a href="{{ speaker.twitter_link }}" target="_blank">{{ speaker.twitter_handle }}</a></p>
-<div class="bio">{{ speaker.bio }}</div>
-{% endfor %}
-
-</div>
+</section>

@@ -20,9 +20,17 @@ $color-green: #4CAF50;
 $color-green-light: lighten($color-green, $color-change);
 $color-green-dark: darken($color-green, $color-change);
 
-$color-blue: #2196f3;
+$color-light-green: #8BC34A;
+$color-light-green-light: lighten($color-light-green, $color-change);
+$color-light-green-dark: darken($color-light-green, $color-change);
+
+$color-blue: #2196F3;
 $color-blue-light: lighten($color-blue, $color-change);
 $color-blue-dark: darken($color-blue, $color-change);
+
+$color-light-blue: #03A9F4;
+$color-light-blue-light: lighten($color-light-blue, $color-change);
+$color-light-blue-dark: darken($color-light-blue, $color-change);
 
 $color-indigo: #3f51b5;
 $color-indigo-light: lighten($color-indigo, $color-change);
@@ -55,6 +63,10 @@ $color-deep-orange-dark: darken($color-deep-orange, $color-change);
 $color-pink: #E91E63;
 $color-pink-light: lighter($color-pink, $color-change);
 $color-pink-dark: darken($color-pink, $color-change);
+
+$color-blue-gray: #607D8B;
+$color-blue-gray-light: lighter($color-blue-gray, $color-change);
+$color-blue-gray-dark: darken($color-blue-gray, $color-change);
 
 /* Theme color */
 $color-background: $color-gray-darker;
@@ -113,8 +125,14 @@ $break-large: 800px;
 .lookAndFeel.green{
   background-color: $color-green;
 }
+.lookAndFeel.light-green{
+  background-color: $color-light-green;
+}
 .lookAndFeel.blue{
   background-color: $color-blue;
+}
+.lookAndFeel.light-blue{
+  background-color: $color-light-blue;
 }
 .lookAndFeel.pink{
   background-color: $color-pink;
@@ -130,4 +148,16 @@ $break-large: 800px;
 }
 .lookAndFeel.amber{
   background-color: $color-amber;
+}
+.lookAndFeel.indigo{
+  background-color: $color-indigo;
+}
+.lookAndFeel.gray{
+  background-color: $color-gray;
+}
+.lookAndFeel.blue-gray{
+  background-color: $color-blue-gray;
+}
+.lookAndFeel.black{
+  background-color: $color-black;
 }

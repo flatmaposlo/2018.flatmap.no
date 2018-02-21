@@ -97,12 +97,10 @@
 
   .bio {
     text-align: left;
-
     @media screen and (min-width: 400px) {
       text-align: justify;
     }
   }
-
   text-align: center;
 
 }
@@ -131,12 +129,7 @@
         font-family: $font-family-subheading;
       }
     }
-    .speakername {
-      a {
-  
-      }
-    }
-  
+
     img {
       margin-top: $style-margin-large;
       width: 180px;
@@ -145,9 +138,7 @@
   
     @include on-device(medium) {
       flex-basis: 30.1%;
-  
       margin-bottom: 2em;
-  
     }
   
     @include on-device(large) {

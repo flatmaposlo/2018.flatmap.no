@@ -38,7 +38,7 @@ speakers:
   name:
     "Jonas Winje"
   bio:
-    "Jonas is a developer at Computas. He likes pretty animals and programming languages, and has an 
+    "<p>Jonas is a developer at Computas. He likes pretty animals and programming languages, and has an 
     MSc in Computer Science from the University of Oslo. Dislikes things. (Also likes cute animals. 
     (Some animals are pretty animals and are also cute animals.)) </p>"
   image:

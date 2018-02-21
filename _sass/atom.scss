@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: calc(1vw + 2.875rem);
-  margin: 10*$style-margin 0 2*$style-margin 0;
+  margin: 12*$style-margin 0 2*$style-margin 0;
   text-transform: uppercase;
   text-align: center;
 
@@ -26,22 +26,22 @@ h1 {
 
 h2 {
   font-size: 2.6rem;
-  margin: 7*$style-margin 0 2*$style-margin 0;
+  margin: 9*$style-margin 0 2*$style-margin 0;
 }
 
 h3 {
   font-size: 2rem;
-  margin: 5*$style-margin 0 2*$style-margin 0;
+  margin: 8*$style-margin 0 2*$style-margin 0;
 }
 
 h4 {
   font-size: 1.8rem;
-  margin: 4*$style-margin 0 2*$style-margin 0;
+  margin: 6*$style-margin 0 2*$style-margin 0;
 }
 
 h5 {
   font-size: 1.6rem;
-  margin: 2*$style-margin 0 $style-margin 0;
+  margin: 4*$style-margin 0 $style-margin 0;
 }
 
 h6 {

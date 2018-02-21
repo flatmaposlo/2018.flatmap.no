@@ -74,7 +74,7 @@ $color-text: $color-white;
 $color-link: $color-white;
 
 $font-family-heading: 'Roboto', sans-serif;
-$font-family-subheading: 'Noto Serif', sans-serif;
+$font-family-subheading: $font-family-heading; /*'Noto Serif', sans-serif;*/
 $font-family-base: 'Roboto', sans-serif;
 $font-family-input: 'Roboto', sans-serif;
 

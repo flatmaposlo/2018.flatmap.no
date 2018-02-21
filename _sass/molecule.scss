@@ -114,5 +114,8 @@
   width: 180px;
   border-radius: 90px;
   margin-top: $style-margin-large;
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1);
 }
 

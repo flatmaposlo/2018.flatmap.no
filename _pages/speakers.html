@@ -12,7 +12,7 @@ order: 4
 <div class="speakers">
 {% for speaker in speakers %}
     <div class="speaker">
-        <img src="{{ site.path }}/assets/img/{{ speaker.image}}" alt="{{speaker.name}}" />
+        <img class="speakerImage" src="{{ site.path }}/assets/img/{{ speaker.image}}" alt="{{speaker.name}}" />
         <h3>{{ speaker.name }}</h3>
         <ul class="talks">
         {% for talk in site.talks  %}

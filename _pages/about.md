@@ -6,7 +6,7 @@ lookAndFeel: blue
 order: 3
 ---
 
-## About
+# About
 
 flatMap(Oslo) is an annual conference in Oslo, Norway.
 From the beginning in 2011 we have focused on functional programming in general

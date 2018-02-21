@@ -1,6 +1,7 @@
 ---
 title: Wickstrom
 layout: talk
+lookAndFeel: purple
 page_name:
   "wickstrom"
 speakers:

@@ -2,7 +2,8 @@
 layout: page
 title: Talks
 permalink: /talks/list
-order: 4
+lookAndFeel: pink
+order: 5
 ---
 <h1>Talks</h1>
 <p>Announced talks</p>
@@ -10,9 +11,12 @@ order: 4
 {% assign talks = site.talks | sort: 'title' %}
 {% for talk in talks %}
     <h2>{{ talk.title }}</h2>
-    <div class="type">{{ talk.type }}</div> by
-    <div class="speakers">
-        {{ talk.speakers | map: 'name' | sort | array_to_sentence_string }}
+    <div class="meta">
+        <div class="type">{{ talk.type }}</div> 
+        by
+        <div class="speakers">
+            {{ talk.speakers | map: 'name' | sort | array_to_sentence_string }}
+        </div>
     </div>
     <p>{{ talk.abstract }}</p>
     <p><a href="{{ talk.url }}">Details</a></p>

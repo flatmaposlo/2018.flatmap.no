@@ -8,7 +8,7 @@ permalink: /talks/:name
 <section class="talk">
   <div class="wrap">
     <h2>{{ talk.title }}</h2>
-    <p>{{ talk.type }}</p>
+    <p class="type">{{ talk.type }}</p>
     <div class="description">{{ talk.description }}</div>
 
     {% for speaker in talk.speakers %}

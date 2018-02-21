@@ -1,6 +1,7 @@
 ---
 title: "Free All The Things!"
 layout: talk
+lookAndFeel: deep-orange
 page_name:
   "hauck"
 type:

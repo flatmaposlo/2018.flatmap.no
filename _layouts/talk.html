@@ -16,7 +16,7 @@ permalink: /talks/:name
       <a name="{{ speaker.name }}"></a>
       <img class="speakerImage" src="{{ site.path }}/assets/img/{{ speaker.image}}" alt="{{speaker.name}}" />
       <h3>{{ speaker.name }}</h3>
-      <p><a href="{{ speaker.twitter_link }}" target="_blank">{{ speaker.twitter_handle }}</a></p>
+      <p><a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">@{{ speaker.twitter }}</a></p>
       <div class="bio">{{ speaker.bio }}</div>
     </div>
     {% endfor %}

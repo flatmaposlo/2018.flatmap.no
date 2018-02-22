@@ -1,7 +1,7 @@
 ---
 title: "Scalaz 8: A Whole New Game"
 layout: talk
-lookAndFeel: deep-orange
+lookAndFeel: light-green
 page_name:
   "de_goes"
 type:

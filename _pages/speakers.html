@@ -6,25 +6,7 @@ lookAndFeel: orange
 order: 4
 ---
 
-{% assign speakers = site.talks | map: "speakers" | uniq | sort: 'name' %}
 <h1>Speakers</h1>
 <p>Announced speakers</p>
-<div class="speakers">
-{% for speaker in speakers %}
-    <div class="speaker">
-        {% for talk in site.talks  %}
-            {% for talkSpeaker in talk.speakers %}
-                {% if talkSpeaker == speaker %}
-                    <a href="{{ talk.url }}">
-                        <img class="speakerImage" src="{{ site.path }}/assets/img/{{ speaker.image}}" alt="{{speaker.name}}" />
-                    </a>
-                    <h3><a href="{{ talk.url }}">{{ speaker.name }}</a></h3>
-                    <ul class="talks">
-                        <li><a href="{{ talk.url }}">{{ talk.title }}</a></li>
-                    </ul>
-                 {% endif %}
-            {% endfor %}
-        {% endfor %}
-    </div>
-{% endfor %}
-</div>
+
+{%include section_speakers.html %}

@@ -46,7 +46,7 @@ speakers:
     Chief Technology Officer of SlamData, an open source software company using pure functional 
     programming to redefine analytics for modern data.</p>"
   image:
-    "de_goes.jpeg"
+    "de_goes.png"
   twitter:
     "jdegoes"
 ---

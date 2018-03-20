@@ -31,7 +31,7 @@ speakers:
     <p>David lives in Toronto; he enjoys playing board games, cooking, and installing Linux on everything. You can 
     usually find him cycling about the west end in search of tasty food and beverages.</p>"
   image:
-    "geest.jpg"
+    "geest.png"
   twitter:
     "DWvanGeest"
 ---

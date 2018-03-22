@@ -19,7 +19,7 @@ description:
   
   <p>Then you start to realise there is this other thing, composability.</p>
 
-  <p>In this talk I’ll demonstrate how Java programs often lack the comparability property. I’ll then proceed to 
+  <p>In this talk I’ll demonstrate how Java programs often lack the composability property. I’ll then proceed to 
   show what this looks like when translated to Clojure. Finally, I’ll provide some techniques to avoid this all 
   together and write code that is truly composable.</p>"
 speakers:

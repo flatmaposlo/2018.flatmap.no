@@ -14,11 +14,7 @@ description:
   from languages like Haskell, there are projects out there which aim to fill that gap – one of them is Cats, 
   a library that provides typeclasses, instances and additional constructs to Free (pun intended) us from the 
   burden of writing the same code over and over again. I’m going to show you the benefits of using these 
-  constructs in real world applications. </p>
-  
-  <p>In this talk I’ll demonstrate how Java programs often lack the composability property. I’ll then proceed to 
-  show what this looks like when translated to Clojure. Finally, I’ll provide some techniques to avoid this all 
-  together and write code that is truly composable.</p>"
+  constructs in real world applications. </p>"
 speakers:
 -
   name:

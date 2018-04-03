@@ -2,19 +2,16 @@
 <div class="speakers">
 {% for speaker in speakers %}
     <div class="speaker">
-        {% for talk in site.talks  %}
-            {% for talkSpeaker in talk.speakers %}
-                {% if talkSpeaker == speaker %}
-                    <a href="{{ talk.url }}">
-                        <img class="speakerImage" src="{{ site.path }}/assets/img/{{ speaker.image}}" alt="{{speaker.name}}" />
-                    </a>
-                    <h3><a href="{{ talk.url }}">{{ speaker.name }}</a></h3>
-                    <ul class="talks">
-                        <li><a href="{{ talk.url }}">{{ talk.title }}</a></li>
-                    </ul>
-                 {% endif %}
+        {% assign talks = site.talks | where_exp: 'talk', 'talk.speakers contains speaker' %}
+        <a href="{{ talks[0].url }}">
+            <img class="speakerImage" src="{{ site.path }}/assets/img/{{ speaker.image}}" alt="{{speaker.name}}" />
+        </a>
+        <h3><a href="{{ talks[0].url }}">{{ speaker.name }}</a></h3>
+        <ul class="talks">
+            {% for talk in talks  %}
+                <li><a href="{{ talk.url }}">{{ talk.title }}</a></li>
             {% endfor %}
-        {% endfor %}
+        </ul>
     </div>
 {% endfor %}
 </div>

@@ -1,7 +1,7 @@
 ---
 title: Härlin
 layout: talk
-lookAndFeel: purple
+lookAndFeel: cyan
 page_name:
   "harlin"
 speakers:

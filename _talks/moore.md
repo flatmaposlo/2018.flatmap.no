@@ -1,7 +1,7 @@
 ---
 title: "From NAND to Lambda: Foundational Computing Through Functional Principles"
 layout: talk
-lookAndFeel: deep-orange
+lookAndFeel: black
 page_name:
   "moore"
 type:

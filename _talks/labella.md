@@ -1,7 +1,7 @@
 ---
 title: "Declarative Control Flow with Fs2 Stream"
 layout: talk
-lookAndFeel: deep-orange
+lookAndFeel: purple
 page_name:
   "labella"
 type:

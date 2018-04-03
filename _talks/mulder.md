@@ -1,7 +1,7 @@
 ---
 title: "Regaining Control with State Monad and Friends"
 layout: talk
-lookAndFeel: blue-gray
+lookAndFeel: light-blue
 page_name:
   "mulder"
 type:

@@ -16,6 +16,10 @@ $color-black: #212121;
 
 $color-change: 30%;
 
+$color-cyan: #00BCD4;
+$color-cyan-light: lighten($color-cyan, $color-change);
+$color-cyan-dark: darken($color-cyan, $color-change);
+
 $color-green: #4CAF50;
 $color-green-light: lighten($color-green, $color-change);
 $color-green-dark: darken($color-green, $color-change);
@@ -127,6 +131,9 @@ $break-large: 800px;
 }
 .lookAndFeel.light-green{
   background-color: $color-light-green;
+}
+.lookAndFeel.cyan{
+  background-color: $color-cyan;
 }
 .lookAndFeel.blue{
   background-color: $color-blue;

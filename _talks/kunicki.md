@@ -1,7 +1,7 @@
 ---
 title: "Type Classes in Scala: from Zero to Hero"
 layout: talk
-lookAndFeel: deep-orange
+lookAndFeel: light-blue
 page_name:
   "kunicki"
 type:

@@ -1,7 +1,7 @@
 ---
 title: "The (un?) reasonable effectiveness of mathematics in computer programming"
 layout: talk
-lookAndFeel: deep-orange
+lookAndFeel: red
 page_name:
   "claramunt"
 type:

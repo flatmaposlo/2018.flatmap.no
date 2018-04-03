@@ -1,7 +1,7 @@
 ---
 title: "What Haskell taught us when we weren't looking"
 layout: talk
-lookAndFeel: deep-orange
+lookAndFeel: light-green
 page_name:
   "torreborre"
 type:

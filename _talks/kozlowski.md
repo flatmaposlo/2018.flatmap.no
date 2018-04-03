@@ -1,7 +1,7 @@
 ---
 title: "Fantastic Monads and where to find them"
 layout: talk
-lookAndFeel: deep-orange
+lookAndFeel: orange
 page_name:
   "kozlowski"
 type:

@@ -1,7 +1,7 @@
 ---
 title: "Winter is coming"
 layout: talk
-lookAndFeel: deep-orange
+lookAndFeel: light-green
 page_name:
   "ferreira"
 type:

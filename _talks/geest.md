@@ -1,7 +1,7 @@
 ---
 title: "Akka: A Best Friend (Forever!) for your Backend-for-Frontend"
 layout: talk
-lookAndFeel: deep-orange
+lookAndFeel: blue
 page_name:
   "geest"
 type:

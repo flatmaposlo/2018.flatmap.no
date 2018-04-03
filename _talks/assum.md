@@ -1,7 +1,7 @@
 ---
 title: "Are you writing Java in Clojure?"
 layout: talk
-lookAndFeel: deep-orange
+lookAndFeel: green
 page_name:
   "assum"
 type:

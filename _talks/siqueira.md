@@ -1,7 +1,7 @@
 ---
 title: "Learning cats-effect by Accident"
 layout: talk
-lookAndFeel: deep-orange
+lookAndFeel: pink
 page_name:
   "siqueira"
 type:

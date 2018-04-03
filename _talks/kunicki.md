@@ -24,14 +24,6 @@ speakers:
     "<p>I’m a passionate software engineer living in the JVM land - mainly, but not limited to. 
     I also tend to play with electronics and hardware. When sharing my knowlegde, I always keep 
     in mind that a working example is worth a thousand words.
-    </p>
-    
-    <p>You can find my previous talks at:
-       
-       <ul>
-       <li> https://www.youtube.com/playlist?list=PLpGandjsW_NkTlnT0a0W3U81FgbIVDPzs</li>
-       <li> https://vimeo.com/album/4750912</li>
-       </ul>
     </p>"
   image:
     "kunicki.png"

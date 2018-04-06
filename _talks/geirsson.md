@@ -43,4 +43,7 @@ speakers:
     Fløyen in Bergen where he lives half of the time.</p>"
   image:
     "geirsson.png"
+  twitter:
+    "olafurpg"
+
 ---

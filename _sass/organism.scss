@@ -52,7 +52,7 @@
 
 .about, .sponsorer {
   padding-top: $style-margin-large;
-  padding-bottom: $style-margin-medium;
+  padding-bottom: $style-margin-large;
 }
 
 .about {
@@ -118,8 +118,7 @@
   
   .speaker {
 
-    margin-bottom: 1.7em;
-    margin-top: 1.7em;
+    margin-bottom: $style-margin-medium;
     text-align: center;
     flex-basis: 100%;
   
@@ -138,7 +137,6 @@
   
     @include on-device(medium) {
       flex-basis: 30.1%;
-      margin-bottom: 2em;
     }
   
     @include on-device(large) {
@@ -149,9 +147,80 @@
         padding: 0;
       }
     
-      margin-bottom: 3em;
       text-align: center;
     }
   
+  }
+}
+
+.schedule_frontpage {
+
+  margin-top: $style-margin-large;
+  margin-bottom: $style-margin-large;
+
+  a {
+    text-decoration: none;
+  }
+
+  .schedule_speaker {
+    font-weight: bold;
+  }
+
+  .time {
+    font-weight: bold;
+    padding-top: 5*$style-margin;
+    padding-bottom: 3*$style-margin;
+    text-align: center;
+  }
+
+  .days, .day{
+    text-align: center;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .schedule {
+
+    .conference {
+      background-color: $color-white;
+      color: $color-black;
+      padding: 2*$style-margin;
+      text-align: center;
+    }
+
+    .Presentation, .presentation, .Workshop, .workshop  {
+      padding: 2*$style-margin;
+      text-align: left;
+      height: 100%;
+      div{
+        margin-bottom: $style-margin;
+      }
+    }
+
+    ul.tracks {
+      height: 100%;
+      width: 100%;
+      display: table;
+    }
+
+    li.track {
+      width: 50%;
+      height: 100%;
+      display: table-cell;
+    }
+
+    li.workshops {
+      width: 50%;
+      height: 100%;
+      display: table-cell;
+
+      ul{
+        height: 100%;
+      }
+    }
   }
 }

@@ -1,6 +1,6 @@
 ---
 layout: talk
-lookAndFeel: cyan
+lookAndFeel: green
 page_name:
   "winje_mork"
 speakers:

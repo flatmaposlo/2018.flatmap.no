@@ -35,8 +35,8 @@ description:
   '<p><b>Attendee preparation:</b><br/>
   Before the workshop:
   <ul>
-   <li> install [SBT](https://www.scala-sbt.org/1.0/docs/Setup.html)</li>
-   <li> If you want an IDE to work with follow the instructions on [Scala site](https://www.scala-lang.org/download/)</li>
+   <li>Install <a href="https://www.scala-sbt.org/1.0/docs/Setup.html">SBT</a></li>
+   <li>If you want an IDE to work with follow the instructions on <a href="https://www.scala-lang.org/download/">Scala site</a></li>
   </ul>
   </p>
      

@@ -32,11 +32,17 @@ title:
 type:
   "Workshop"
 abstract:
-  '<p>Building evaluators is a fun way to learn about programming languages. “Amb” is cool because it’s a 
+  '<p><b>Attendee preparation:</b><br/>
+  Bring a laptop with DrRacket (https://racket-lang.org/) installed.</p>
+  
+  <p>Building evaluators is a fun way to learn about programming languages. “Amb” is cool because it’s a 
   pretty small extension to a more regular FP lang, but it’s enough to make it feel like proper different to 
   program in, and makes certain programs (particularly backtracky ones) really easy to write. </p>'
 description:
-  '<p>From building our own small evaluators we can learn about how programming languages are made and what kind of 
+  '<p><b>Attendee preparation:</b><br/>
+  Bring a laptop with DrRacket (https://racket-lang.org/) installed.</p>
+
+  <p>From building our own small evaluators we can learn about how programming languages are made and what kind of 
   design decisions we can make when building languages, as well as about ideas and techniques that we can make use 
   of in our everyday programming. More important: Making evaluators is lots of fun! </p>
      

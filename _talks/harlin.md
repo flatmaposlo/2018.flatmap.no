@@ -21,10 +21,26 @@ title:
 type:
   "Workshop"
 abstract:
-  '<p>Gentle introduction to Scala and without to much focus on the new scary concepts such as 
+  '<p><b>Attendee preparation:</b><br/>
+  Before the workshop:
+  <ul>
+   <li> install [SBT](https://www.scala-sbt.org/1.0/docs/Setup.html)</li>
+   <li> If you want an IDE to work with follow the instructions on [Scala site](https://www.scala-lang.org/download/)</li>
+  </ul>
+  </p>
+     
+  <p>Gentle introduction to Scala and without to much focus on the new scary concepts such as 
   immutability, first-class functions, implicits, and a ton of language features.</p>'
 description:
-  '<p>Scala and functional programming can be scary at first for those of us coming from the OOP world. 
+  '<p><b>Attendee preparation:</b><br/>
+  Before the workshop:
+  <ul>
+   <li> install [SBT](https://www.scala-sbt.org/1.0/docs/Setup.html)</li>
+   <li> If you want an IDE to work with follow the instructions on [Scala site](https://www.scala-lang.org/download/)</li>
+  </ul>
+  </p>
+     
+  <p>Scala and functional programming can be scary at first for those of us coming from the OOP world. 
   With a bunch of new concepts such as immutability, first-class functions, implicits, and a ton of language 
   features, it is easy to get overwhelmed when jumping into Scala. We will take a look at some of the major 
   advantages of Scala and why you should start using it. Walking away from this session you will have a 

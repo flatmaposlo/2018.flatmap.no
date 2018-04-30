@@ -39,9 +39,9 @@ description:
   </p>
 
   <p>We will use Haskell data structures to model a project management system, and from there explore
-  Functor, Foldable, Traversable, and maybe recursion schemes if we have time. Attendees should be
+  Functor, Monoid, Foldable, and ways of traversing our data. Attendees should be
   comfortable with Haskell basics, preferably at the level of
   <a href="http://haskellbook.com/">Haskell programming from first principles</a>
   or similar. We will use the Stack build tool to keep it consistent, and that should be installed
-  beforehand, together with at least a basic text editor, by all attendees.</p>'
+  beforehand if you want to follow along on your computer.</p>'
 ---

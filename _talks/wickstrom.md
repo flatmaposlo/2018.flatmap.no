@@ -25,7 +25,7 @@ type:
   "Workshop"
 abstract:
   '<p><b>Attendee preparation:</b><br/>
-  For the ones that want to follow along on their computer, they need prepare by following the "Setup" section:
+  For the ones that want to follow along on their computer, they need to prepare by following the "Setup" section:
   https://owickstrom.github.io/domain-modelling-with-haskell-workshop/
   </p>
   
@@ -34,7 +34,7 @@ abstract:
   and explore different ways of traversing and folding our data when implementing new features.</p>'
 description:
   '<p><b>Attendee preparation:</b><br/>
-  For the ones that want to follow along on their computer, they need prepare by following the "Setup" section:
+  For the ones that want to follow along on their computer, they need to prepare by following the "Setup" section:
   https://owickstrom.github.io/domain-modelling-with-haskell-workshop/
   </p>
 

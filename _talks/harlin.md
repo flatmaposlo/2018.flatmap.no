@@ -22,18 +22,16 @@ type:
   "Workshop"
 abstract:
   '<p><b>Attendee preparation:</b><br/>
-  Before the workshop:
-  <ul>
-   <li> install [SBT](https://www.scala-sbt.org/1.0/docs/Setup.html)</li>
-   <li> If you want an IDE to work with follow the instructions on [Scala site](https://www.scala-lang.org/download/)</li>
-  </ul>
-  </p>
+     <ul>
+      <li>Install <a href="https://www.scala-sbt.org/1.0/docs/Setup.html">SBT</a></li>
+      <li>If you want an IDE to work with follow the instructions on <a href="https://www.scala-lang.org/download/">Scala site</a></li>
+     </ul>
+     </p>
      
   <p>Gentle introduction to Scala and without to much focus on the new scary concepts such as 
   immutability, first-class functions, implicits, and a ton of language features.</p>'
 description:
   '<p><b>Attendee preparation:</b><br/>
-  Before the workshop:
   <ul>
    <li>Install <a href="https://www.scala-sbt.org/1.0/docs/Setup.html">SBT</a></li>
    <li>If you want an IDE to work with follow the instructions on <a href="https://www.scala-lang.org/download/">Scala site</a></li>

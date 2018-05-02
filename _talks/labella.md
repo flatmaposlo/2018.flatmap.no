@@ -24,7 +24,9 @@ speakers:
     "<p>I’m a Senior Software Engineer based in Edinburgh, UK, working in Scala in the financial industry. 
     I also actively participate in Open Source (as SystemFw): I’m one of the maintainers of fs2, and a contributor 
     to cats, shapeless, http4s and most of the other libraries in the Scala FP ecosystem. I have a passion for 
-    helping people master advanced concepts (e.g. see here or here), so hit me up on Gitter if you have a question!</p>"
+    helping people master advanced concepts (e.g. see <a href="https://twitter.com/balajisivaraman/status/894976114304499712">here</a> 
+    or <a href="https://twitter.com/etorreborre/status/933344847364313088">here</a>), so hit me up on 
+    Gitter if you have a question!</p>"
   image:
     "labella.png"
 ---

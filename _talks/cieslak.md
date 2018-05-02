@@ -21,11 +21,27 @@ title:
 type:
   "Workshop"
 abstract:
-  '<p>Javascript has conquered the world – you can use it in the browser, on the server, to write mobile apps, or on
+  '<p><b>Attendee preparation:</b><br/>
+     To complete the workshop, you will need to install all the Fable pre-requisites and get an F# editor that works 
+     well with Fable. All requirements of Fable are described in its getting started guide - 
+     http://fable.io/docs/getting-started.html. It should include Mono which is described as 
+     optional requirement in the guide. While any F# IDE should work just fine, the recommended setup 
+     is to use Ionide in VS Code - http://ionide.io/
+</p>
+  
+  <p>Javascript has conquered the world – you can use it in the browser, on the server, to write mobile apps, or on
    the desktop with Electron. During the workshop you will learn how to bring the power of F# - modern 
    functional-first language – to huge and rich JS world using Fable – F# to JS compiler.</p>'
 description:
-  '<p>Javascript has conquered the world – you can use it in the browser, on the server, to write mobile apps, 
+  '<p><b>Attendee preparation:</b><br/>
+        To complete the workshop, you will need to install all the Fable pre-requisites and get an F# editor that works 
+        well with Fable. All requirements of Fable are described in its getting started guide - 
+        http://fable.io/docs/getting-started.html. It should include Mono which is described as 
+        optional requirement in the guide. While any F# IDE should work just fine, the recommended setup 
+        is to use Ionide in VS Code - http://ionide.io/
+   </p>
+     
+ <p>Javascript has conquered the world – you can use it in the browser, on the server, to write mobile apps, 
   or on the desktop with Electron. During the workshop I’ll introduce Fable - an open source compiler that brings 
   all the power of F# - the functional paradigm, static typing with type inference, pattern matching, and more 
   modern language features – to this huge and rich JS world. Fable doesn’t add any runtime overhead and generates 

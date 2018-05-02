@@ -4,16 +4,6 @@ lookAndFeel: deep-purple
 ---
 
 {% assign sorted_pages = site.pages | where:"onFrontPage", true %}
-<aside class="announce">
-  <div class="wrap">
-    {% include hero.html %}
-    <div class="inner">
-      <!-- { - { sorted_pages[0].content | markdownify } - }-->
-      <!--<h2>TALKS BY</h2>-->
-      <!--{ % include talks.html % }-->
-    </div>
-  </div>
-</aside>
 
 <div class="wrap">
   <div class="vertical-space-above"></div>

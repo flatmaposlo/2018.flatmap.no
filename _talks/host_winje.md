@@ -27,7 +27,7 @@ speakers:
   name:
     "Einar W. Høst"
   bio:
-    "<p>Einar W. Høst is a computer at NRK, the Norwegian public broadcaster. His heretic views include
+    "<p>Einar W. Høst programs computers at NRK, the Norwegian public broadcaster. His heretic views include
     thinking before programming and making drawings to understand things better. This arrogant mindset no
     doubt stems from the idle years spent obtaining a PhD in Computer Science from the University of Oslo. </p>"
   image:

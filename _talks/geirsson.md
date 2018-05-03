@@ -1,5 +1,5 @@
 ---
-title: "Towards better Scala IDEs"
+title: "Six steps from zero to IDE"
 layout: talk
 lookAndFeel: purple
 page_name:

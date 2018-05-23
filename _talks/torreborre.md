@@ -1,6 +1,7 @@
 ---
 title: "What Haskell taught us when we weren't looking"
 layout: talk
+movie: https://www.youtube.com/embed/7UsOBrsPB2g
 lookAndFeel: light-green
 page_name:
   "torreborre"

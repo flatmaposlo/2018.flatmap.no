@@ -1,6 +1,7 @@
 ---
 title: "A Little Taste of Dependent Types"
 layout: talk
+movie: https://www.youtube.com/embed/1BWYy2-WM-o
 lookAndFeel: deep-orange
 page_name:
   "christiansen"

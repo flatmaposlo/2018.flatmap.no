@@ -2,6 +2,7 @@
 title: "Integrating IDEs with Dotty, the experimental Scala compiler"
 layout: talk
 lookAndFeel: deep-orange
+movie: https://www.youtube.com/embed/doFQeaY_EdQ
 page_name:
   "martres"
 type:

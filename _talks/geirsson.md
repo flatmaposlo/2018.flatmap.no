@@ -1,6 +1,7 @@
 ---
 title: "Six steps from zero to IDE"
 layout: talk
+movie: https://www.youtube.com/embed/4AkdUhUkHl4
 lookAndFeel: purple
 page_name:
   "geirsson"

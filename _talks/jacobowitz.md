@@ -1,6 +1,7 @@
 ---
 title: "Advanced Tagless Final - Saying farewell to Free"
 layout: talk
+movie: https://www.youtube.com/embed/E9iRYNuTIYA
 lookAndFeel: blue-gray
 page_name:
   "jacobowitz"

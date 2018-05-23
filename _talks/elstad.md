@@ -1,6 +1,7 @@
 ---
 title: "Church Encoding in Concatenative Programming Languages"
 layout: talk
+movie: https://www.youtube.com/embed/TcveznrwYtk
 lookAndFeel: light-green
 page_name:
   "elstad"

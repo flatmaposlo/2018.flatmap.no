@@ -1,6 +1,7 @@
 ---
 title: "Winter is coming"
 layout: talk
+movie: https://www.youtube.com/embed/7oTB2cZwn70
 lookAndFeel: light-green
 page_name:
   "ferreira"

@@ -1,6 +1,7 @@
 ---
 title: "Free All The Things!"
 layout: talk
+movie: https://www.youtube.com/embed/g7a2euBCdFo
 lookAndFeel: indigo
 page_name:
   "hauck"

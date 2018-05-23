@@ -1,6 +1,7 @@
 ---
 title: "The (un?) reasonable effectiveness of mathematics in computer programming"
 layout: talk
+movie: https://www.youtube.com/embed/D6Z7LDI6YBw
 lookAndFeel: red
 page_name:
   "claramunt"

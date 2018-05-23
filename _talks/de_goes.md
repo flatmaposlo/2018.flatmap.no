@@ -2,6 +2,7 @@
 title: "Scalaz 8: A Whole New Game"
 layout: talk
 lookAndFeel: light-green
+movie: https://www.youtube.com/embed/sFGnFKMSmL0
 page_name:
   "de_goes"
 type:

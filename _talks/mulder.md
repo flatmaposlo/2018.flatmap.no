@@ -1,6 +1,7 @@
 ---
 title: "Regaining Control with State Monad and Friends"
 layout: talk
+movie: https://www.youtube.com/embed/Pgo73GfHk0U
 lookAndFeel: light-blue
 page_name:
   "mulder"

@@ -1,6 +1,7 @@
 ---
 title: "Fantastic Monads and where to find them"
 layout: talk
+movie: https://www.youtube.com/embed/HMs_F7LXTak
 lookAndFeel: orange
 page_name:
   "kozlowski"

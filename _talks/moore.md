@@ -2,6 +2,7 @@
 title: "From NAND to Lambda: Foundational Computing Through Functional Principles"
 layout: talk
 lookAndFeel: black
+movie: https://www.youtube.com/embed/E6mCglfodPg
 page_name:
   "moore"
 type:

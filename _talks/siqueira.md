@@ -1,6 +1,7 @@
 ---
 title: "Learning cats-effect by Accident"
 layout: talk
+movie: https://www.youtube.com/embed/RRFbFC67IiY
 lookAndFeel: pink
 page_name:
   "siqueira"

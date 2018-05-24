@@ -9,7 +9,7 @@ permalink: /talks/:name
   <div class="wrap">
     <h2>{{ talk.title }}</h2>
     {% if talk.movie %}
-      <iframe width="720" height="420" src="{{ talk.movie }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <iframe class="movie" src="{{ talk.movie }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     {% endif %}
     <p class="type">{{ talk.type }}</p>
     <div class="description">{{ talk.description }}</div>
